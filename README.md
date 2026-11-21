@@ -1,24 +1,23 @@
 # travel-planner
 
-Бэкенд планировщика самостоятельных путешествий. Python 3.12+, FastAPI, PostgreSQL 18, SQLAlchemy 2 и Alembic.
+Бэкенд планировщика самостоятельных путешествий. Python 3.13, uv, FastAPI, PostgreSQL 18, асинхронный SQLAlchemy Core и Alembic. Код организован по слоям шаблона Common.
 
 ## Локальный запуск
 
-Команды выполняются из корня репозитория. Требуются Python и запущенный Docker Desktop с Compose.
+Установите uv и запустите Docker с Compose. Выполняйте команды из корня репозитория. Compose поднимает PostgreSQL, а uv запускает бэкенд на вашей машине.
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python -m pip install --no-deps -e .
-cp .env.example .env
+uv sync --python 3.13 --group dev
+cp .env.example .env  # PowerShell: Copy-Item .env.example .env
 docker compose up -d --wait db
-python -m alembic upgrade head
-travel-import
-.venv/bin/python -m uvicorn app.main:app --reload
+uv run alembic -c backend/alembic.ini upgrade head
+uv run travel-import
+uv run uvicorn backend.app.main:app --loop asyncio:SelectorEventLoop --reload
 ```
 
-Документация API доступна по адресу http://127.0.0.1:8000/docs.
+Документация API доступна по адресу <http://127.0.0.1:8000/docs>.
+
+Параметр `--loop asyncio:SelectorEventLoop` позволяет запускать асинхронный Psycopg на Windows. Сохраняйте его и при запуске без `--reload`. [Документация Psycopg](https://www.psycopg.org/psycopg3/docs/advanced/async.html)
 
 - `GET /health/live` проверяет работу приложения.
 - `GET /health/ready` проверяет соединение с БД и наличие таблицы мест. При сбое возвращает 503.
@@ -27,6 +26,25 @@ travel-import
 
 Если порт `5432` занят, задайте в `.env` значение `POSTGRES_PORT=5433` и тот же порт в `DATABASE_URL`. Затем запустите `docker compose up -d --wait db`. Внутри контейнера PostgreSQL использует порт `5432`.
 
+## Как устроен код
+
+| Путь | Что здесь искать |
+| --- | --- |
+| [`backend/app/main.py`](backend/app/main.py) | Фабрика FastAPI, подключение роутеров и обработчиков ошибок, закрытие пула БД при остановке |
+| [`backend/app/api/`](backend/app/api/) | Роуты в `routers/`, форматы запросов и ответов в `schemas/`, сборка сервисов и проверка токена в `dependencies.py` |
+| [`backend/app/application/`](backend/app/application/) | Сценарии каталога, поездок, гостевых сессий и импорта. Здесь проверяются права на поездку, её версия и совместимость остановок |
+| [`backend/app/domain/`](backend/app/domain/) | Правила длительности поездки и модель фильтров каталога. Обычный Python без HTTP и БД |
+| [`backend/app/infrastructure/`](backend/app/infrastructure/) | SQL-запросы в `repositories/`, таблицы SQLAlchemy Core в `db/models/`, пул и транзакции в `db/database.py`, чтение файлов базы знаний в `knowledge.py` |
+| [`backend/app/security/`](backend/app/security/) | Генерация и хеширование гостевых токенов |
+| [`backend/app/config/`](backend/app/config/) и [`backend/app/shared/`](backend/app/shared/) | Загрузка настроек, общий класс прикладных ошибок и доступ к логгеру |
+| [`backend/alembic/`](backend/alembic/) и [`backend/alembic.ini`](backend/alembic.ini) | История миграций и конфигурация Alembic |
+| [`backend/scripts/`](backend/scripts/) и [`data/knowledge/`](data/knowledge/) | Команда импорта, исходные данные и их валидатор |
+| [`backend/tests/`](backend/tests/) | Интеграционные тесты API на изолированной схеме PostgreSQL |
+
+Например, `PUT /api/v1/trips/{trip_id}/itinerary` проверяет тело запроса по схеме в `api/schemas/trips.py`. Роутер передаёт ID гостя и программу в `application/trips.py`. Сервис проверяет владельца, версию и дни поездки, затем вызывает `infrastructure/repositories/trips.py` для замены остановок. Зависимость FastAPI передаёт проверке токена и сервису одно соединение и фиксирует транзакцию до успешного ответа.
+
+Для нового эндпоинта добавьте схему и роутер в `api/`, сценарий в `application/`, а SQL-запросы в репозиторий. Подключите зависимости в `api/dependencies.py`. Чистые правила, которые можно проверить без БД, размещайте в `domain/`. Импортируйте модули от корня через `backend.app.*`. Прикладные ошибки преобразуются в JSON с полем `detail`, а ошибки валидации запроса сохраняют стандартный формат FastAPI.
+
 ## База знаний
 
 Исходные материалы находятся в `data/knowledge`. Импорт запускает существующий валидатор, затем одной транзакцией обновляет 16 городов, категории, 742 места и 48 черновиков маршрутов. Повторный запуск обновляет записи по стабильным ID и заменяет связи импортируемых записей. Записи, отсутствующие в новой выгрузке, сохраняются. Одновременные импорты сериализуются транзакционной блокировкой PostgreSQL.
@@ -34,16 +52,16 @@ travel-import
 Основные поля и связи вынесены в столбцы и таблицы. Полные исходные карточки хранятся в `payload` JSONB, включая источники, расписания, ограничения достоверности и атрибуцию OSM. Картографические кандидаты остаются в исследовательских файлах. Их отбор в каталог выполняется отдельно.
 
 ```bash
-python data/knowledge/validate_knowledge.py
-travel-import --directory data/knowledge
-python -m alembic current
+uv run python data/knowledge/validate_knowledge.py
+uv run travel-import --directory data/knowledge
+uv run alembic -c backend/alembic.ini current
 ```
 
 Изменения схемы оформляются новой миграцией.
 
 ```bash
-python -m alembic revision --autogenerate -m "describe schema change"
-python -m alembic upgrade head
+uv run alembic -c backend/alembic.ini revision --autogenerate -m "describe schema change"
+uv run alembic -c backend/alembic.ini upgrade head
 ```
 
 Перед применением проверьте сгенерированную миграцию. Учётные данные в `.env.example` предназначены для локальной разработки. Для остановки базы используйте `docker compose stop db`, данные сохраняются в именованном томе.
@@ -156,34 +174,11 @@ curl -X POST http://127.0.0.1:8000/api/v1/trips \
 - `422` — некорректный запрос, неизвестный город, место из другого города или день за пределами поездки.
 - `503` — ошибка обращения к БД. Подробности доступны в журнале сервера.
 
-### Структура кода и данных
-
-| Файл | Ответственность |
-| --- | --- |
-| `app/main.py` | Создание FastAPI, подключение роутеров, healthcheck и обработка ошибок БД |
-| `app/config.py` | Чтение `.env` и переменных окружения |
-| `app/database.py` | Engine, пул соединений, зависимости чтения и транзакционных операций |
-| `app/tables.py` | SQLAlchemy Core-описания таблиц |
-| `app/catalog.py`, `app/schemas.py` | API каталога, фильтрация и модели ответов |
-| `app/guest_auth.py` | Проверка Bearer-токена и получение владельца |
-| `app/trips.py`, `app/trip_schemas.py` | API поездок, программа по дням, валидация и версии |
-| `app/import_knowledge.py` | Импорт исследовательского каталога |
-| `migrations/versions/` | Последовательность миграций Alembic |
-| `tests/test_trips.py` | Интеграционные проверки поездок и доступа |
+### Хранение и транзакции
 
 `guest_sessions` содержит владельца и хеш токена. `trips` содержит владельца, город, название, даты и версию. `trip_stops` содержит UUID остановки, поездку, день, позицию, место, длительность и заметку. Календарные дни вычисляются из дат поездки. Удаление поездки каскадно удаляет остановки. Карточки мест читаются из актуального каталога при запросе поездки.
 
 Запись выполняется в транзакции `REPEATABLE READ`. Перед редактированием блокируется строка поездки. Фиксация транзакции происходит до отправки успешного ответа. Ошибка на любом этапе откатывает изменения. Сериализационные конфликты, взаимные блокировки и нарушения уникальности возвращают 409.
-
-После обновления ветки примените миграции перед запуском сервера.
-
-```bash
-source .venv/bin/activate
-python -m alembic upgrade head
-.venv/bin/python -m uvicorn app.main:app --reload
-```
-
-Команда запуска явно выбирает Python проекта. Если трассировка содержит глобальный `site-packages/fastapi` или возникает ошибка `Depends() got an unexpected keyword argument scope`, проверьте запуск этой командой. В `.venv` должна быть установлена версия FastAPI из `requirements.txt`.
 
 ## Подключение генератора маршрутов
 
@@ -196,18 +191,27 @@ python -m alembic upgrade head
 
 Генератор взаимодействует с бэкендом через HTTP API. Выбор и размещение модели остаются задачей второго разработчика. Программа поездки сохраняет предложенный порядок мест и длительности посещения. Проверка расписаний, расчёт пеших переходов и публикация проверенных маршрутов относятся к следующему этапу. Каталог содержит поле `route_ready`, которое отражает отдельный статус проверки места.
 
-## Проверки поездок
+## Проверки
 
-Тесты используют стандартный `unittest`, создают временную схему PostgreSQL с уникальным именем, применяют миграции и запускают отдельный HTTP-сервер на свободном локальном порту. Временная схема и сервер удаляются после завершения. Для подключения нужны права создания и удаления схемы.
+```bash
+uv run ruff check backend
+uv run pytest -q
+```
+
+Интеграционные тесты помечены `integration`. Они создают временную схему PostgreSQL, применяют миграции и запускают HTTP-сервер на свободном локальном порту. После тестов схема удаляется, сервер останавливается. Для подключения нужны права создания и удаления схемы.
 
 Укажите URL тестового PostgreSQL в переменной `TRAVEL_TEST_DATABASE_URL`. Значение ниже подходит для стандартного порта из `.env.example`. Для вашей локальной настройки замените порт.
 
 ```bash
-TRAVEL_TEST_DATABASE_URL='postgresql+psycopg://travel:travel@localhost:5432/travel' \
-  .venv/bin/python -m unittest discover -s tests -v
+TRAVEL_TEST_DATABASE_URL='postgresql+psycopg://travel:travel@localhost:5432/travel' uv run pytest -q
 ```
 
-Проверяются доступ владельца, редактирование дат, сохранение и переносы остановок, откат частичной записи и два одновременных сохранения одной версии. При отсутствии переменной подключения интеграционные тесты помечаются как пропущенные.
+```powershell
+$env:TRAVEL_TEST_DATABASE_URL = 'postgresql+psycopg://travel:travel@localhost:5432/travel'
+uv run pytest -q
+```
+
+Проверяются гостевой доступ, редактирование дат, сохранение и перенос остановок, откат частичной записи и два одновременных сохранения одной версии. При запуске без `TRAVEL_TEST_DATABASE_URL` интеграционные проверки пропускаются.
 
 ## Распределение задач между бэкенд-разработчиками
 

@@ -5,19 +5,35 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "travel-planner"
 version = "0.1.0"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.121.1,<1",
-    "uvicorn>=0.30,<1",
-    "sqlalchemy>=2.0,<2.1",
+    "uvicorn>=0.36,<1",
+    "sqlalchemy[asyncio]>=2.0,<2.1",
     "psycopg[binary]>=3.2,<4",
     "alembic>=1.13,<2",
     "pydantic-settings>=2.5,<3",
     "jsonschema>=4.23,<5",
+    "loguru>=0.7,<1",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28,<1",
+    "pytest>=8,<10",
+    "ruff>=0.11,<1",
 ]
 
 [project.scripts]
-travel-import = "app.import_knowledge:main"
+travel-import = "backend.scripts.import_knowledge:main"
 
 [tool.setuptools.packages.find]
-include = ["app*"]
+include = ["backend", "backend.app*", "backend.scripts"]
+namespaces = false
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+markers = ["integration: requires PostgreSQL"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
