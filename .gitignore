@@ -4,3 +4,10 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
+uv.lock
+.ruff_cache/
+
+.sema/
+.codex/
+.agents/
+AGENTS.md

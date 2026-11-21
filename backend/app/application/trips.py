@@ -1,0 +1,138 @@
+from datetime import timedelta
+from typing import Any
+from uuid import UUID, uuid4
+
+from sqlalchemy import RowMapping
+from sqlalchemy.ext.asyncio import AsyncConnection
+
+from backend.app.application.exceptions import (
+    ConflictError,
+    InvalidRequestError,
+    NotFoundError,
+)
+from backend.app.domain.trips import trip_day_count, validate_date_range
+from backend.app.infrastructure.repositories import catalog, trips
+
+
+class TripService:
+    def __init__(self, connection: AsyncConnection) -> None:
+        self.connection = connection
+
+    async def _owned_trip(self, trip_id: UUID, guest_id: UUID) -> RowMapping:
+        trip = await trips.find_owned(self.connection, trip_id, guest_id)
+        if trip is None:
+            raise NotFoundError("Trip not found")
+        return trip
+
+    @staticmethod
+    def _check_revision(trip: RowMapping, expected: int) -> None:
+        if trip["revision"] != expected:
+            raise ConflictError("Trip changed. Fetch the latest revision and retry")
+
+    async def _require_city(self, city_id: str) -> None:
+        if not await catalog.city_exists(self.connection, city_id):
+            raise InvalidRequestError("Unknown city_id")
+
+    async def _trip_detail(self, trip: RowMapping) -> dict[str, Any]:
+        days = [
+            {
+                "day_number": index + 1,
+                "date": trip["start_date"] + timedelta(days=index),
+                "stops": [],
+            }
+            for index in range(trip_day_count(trip["start_date"], trip["end_date"]))
+        ]
+        for stop in await trips.list_stops(self.connection, trip["id"]):
+            days[stop["day_number"] - 1]["stops"].append(dict(stop))
+        return {**trip, "days": days}
+
+    async def create_trip(self, guest_id: UUID, data: dict[str, Any]) -> dict[str, Any]:
+        await self._require_city(data["city_id"])
+        trip = await trips.create(self.connection, uuid4(), guest_id, data)
+        return await self._trip_detail(trip)
+
+    async def list_trips(
+        self, guest_id: UUID, limit: int, offset: int
+    ) -> dict[str, Any]:
+        records, total = await trips.list_owned(
+            self.connection, guest_id, limit, offset
+        )
+        return {"items": records, "total": total, "limit": limit, "offset": offset}
+
+    async def get_trip(self, trip_id: UUID, guest_id: UUID) -> dict[str, Any]:
+        return await self._trip_detail(await self._owned_trip(trip_id, guest_id))
+
+    async def update_trip(
+        self,
+        trip_id: UUID,
+        guest_id: UUID,
+        expected_revision: int,
+        changes: dict[str, Any],
+    ) -> dict[str, Any]:
+        trip = await self._owned_trip(trip_id, guest_id)
+        self._check_revision(trip, expected_revision)
+        merged = {**trip, **changes}
+        start, end = merged["start_date"], merged["end_date"]
+        try:
+            validate_date_range(start, end)
+        except ValueError as error:
+            raise InvalidRequestError(str(error)) from error
+        await self._require_city(merged["city_id"])
+        if await trips.has_incompatible_stops(
+            self.connection, trip_id, trip_day_count(start, end), merged["city_id"]
+        ):
+            raise ConflictError(
+                "Existing stops conflict with the new dates or city. "
+                "Update the itinerary first"
+            )
+        updated = await trips.update_trip(
+            self.connection, trip_id, trip["revision"], changes
+        )
+        return await self._trip_detail(updated)
+
+    async def replace_itinerary(
+        self,
+        trip_id: UUID,
+        guest_id: UUID,
+        expected_revision: int,
+        days: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        trip = await self._owned_trip(trip_id, guest_id)
+        self._check_revision(trip, expected_revision)
+        day_count = trip_day_count(trip["start_date"], trip["end_date"])
+        if any(day["day_number"] > day_count for day in days):
+            raise InvalidRequestError("Day number exceeds trip duration")
+        rows = [
+            {
+                "trip_id": trip_id,
+                "day_number": day["day_number"],
+                "position": position,
+                **stop,
+            }
+            for day in days
+            for position, stop in enumerate(day["stops"], start=1)
+        ]
+        place_ids = {row["place_id"] for row in rows}
+        if (
+            await trips.find_places_in_city(self.connection, place_ids, trip["city_id"])
+            != place_ids
+        ):
+            raise InvalidRequestError(
+                "Every stop must reference an existing place in the trip city"
+            )
+        if await trips.has_foreign_stop(
+            self.connection, trip_id, [row["id"] for row in rows]
+        ):
+            raise ConflictError("Stop ID is already in use")
+        await trips.replace_stops(self.connection, trip_id, rows)
+        updated = await trips.update_trip(
+            self.connection, trip_id, trip["revision"], {}
+        )
+        return await self._trip_detail(updated)
+
+    async def delete_trip(
+        self, trip_id: UUID, guest_id: UUID, expected_revision: int
+    ) -> None:
+        trip = await self._owned_trip(trip_id, guest_id)
+        self._check_revision(trip, expected_revision)
+        await trips.remove(self.connection, trip_id)
