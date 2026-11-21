@@ -23,3 +23,14 @@ def get_connection() -> Iterator[Connection]:
         .execution_options(isolation_level="REPEATABLE READ") as connection
     ):
         yield connection
+
+
+def get_transaction() -> Iterator[Connection]:
+    # Commit before the endpoint response is sent, rollback on any exception.
+    with (
+        get_engine()
+        .connect()
+        .execution_options(isolation_level="REPEATABLE READ") as connection
+    ):
+        with connection.begin():
+            yield connection

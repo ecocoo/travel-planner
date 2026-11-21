@@ -2,12 +2,18 @@ from sqlalchemy import (
     Boolean,
     CheckConstraint,
     Column,
+    Date,
+    DateTime,
     Float,
     ForeignKey,
     Integer,
     MetaData,
     String,
     Table,
+    UniqueConstraint,
+    Uuid,
+    func,
+    text,
 )
 from sqlalchemy.dialects.postgresql import JSONB
 
@@ -88,4 +94,65 @@ route_template_stops = Table(
     Column("position", Integer, primary_key=True),
     Column("place_id", String, ForeignKey("places.id"), nullable=False),
     CheckConstraint("day_number > 0 AND position > 0", name="positive_stop_position"),
+)
+
+
+guest_sessions = Table(
+    "guest_sessions",
+    metadata,
+    Column("id", Uuid, primary_key=True),
+    Column("token_hash", String(64), nullable=False, unique=True),
+    Column(
+        "created_at", DateTime(timezone=True), nullable=False, server_default=func.now()
+    ),
+)
+
+trips = Table(
+    "trips",
+    metadata,
+    Column("id", Uuid, primary_key=True),
+    Column(
+        "owner_id",
+        Uuid,
+        ForeignKey("guest_sessions.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    ),
+    Column("city_id", String, ForeignKey("cities.id"), nullable=False),
+    Column("title", String(200), nullable=False),
+    Column("start_date", Date, nullable=False),
+    Column("end_date", Date, nullable=False),
+    Column("revision", Integer, nullable=False, server_default=text("1")),
+    Column(
+        "created_at", DateTime(timezone=True), nullable=False, server_default=func.now()
+    ),
+    Column(
+        "updated_at", DateTime(timezone=True), nullable=False, server_default=func.now()
+    ),
+    CheckConstraint(
+        "end_date >= start_date AND end_date - start_date < 366",
+        name="valid_trip_dates",
+    ),
+    CheckConstraint("revision > 0", name="positive_trip_revision"),
+)
+
+trip_stops = Table(
+    "trip_stops",
+    metadata,
+    Column("id", Uuid, primary_key=True),
+    Column("trip_id", Uuid, ForeignKey("trips.id", ondelete="CASCADE"), nullable=False),
+    Column("day_number", Integer, nullable=False),
+    Column("position", Integer, nullable=False),
+    Column("place_id", String, ForeignKey("places.id"), nullable=False),
+    Column("duration_minutes", Integer),
+    Column("notes", String(2000), nullable=False, server_default=""),
+    UniqueConstraint(
+        "trip_id", "day_number", "position", name="unique_trip_stop_position"
+    ),
+    CheckConstraint(
+        "day_number BETWEEN 1 AND 366 AND position > 0", name="valid_trip_stop_position"
+    ),
+    CheckConstraint(
+        "duration_minutes BETWEEN 1 AND 1440", name="valid_trip_stop_duration"
+    ),
 )
