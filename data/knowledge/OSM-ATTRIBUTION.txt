@@ -1,0 +1,11 @@
+OPENSTREETMAP DATA ATTRIBUTION
+
+© OpenStreetMap contributors
+https://www.openstreetmap.org/copyright
+
+Картографические данные OpenStreetMap распространяются по Open Data Commons Open Database License 1.0.
+https://opendatacommons.org/licenses/odbl/1-0/
+
+В данном наборе данные OSM находятся в map_candidates.json, map_sources.json, map_matches.json, а также в карточках places.json с источником kind=open_map и полями map_tags и external_ids.osm.
+
+При использовании и распространении этих данных сохраняются атрибуция OpenStreetMap и ссылка на ODbL. Условия распространения производной базы приведены в тексте лицензии.

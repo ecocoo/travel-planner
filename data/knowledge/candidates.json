@@ -1,0 +1,3154 @@
+[
+  {
+    "id": "kazan-dvorets-zemledeltsev",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Дворец земледельцев",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/dvorets-zemledeltsev/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-centr-semi-kazan",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Центр семьи Казан",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/centr_semi_kazan/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-staro-tatarskaya-sloboda",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Старо-татарская слобода",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/staro-tatarskaya_sloboda/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-ulica-baumana",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Улица Баумана",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/ulica_baumana/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-kremlevskaya-naberezhnaya",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Кремлевская набережная",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/kremlevskaya_naberezhnaya/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-pamyatnik-muse-dzhalilyu",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Памятник Мусе Джалилю",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/pamyatnik_muse_dzhalilyu/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-dom-ushkovoj",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Дом Ушковой",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/dom_ushkovoj/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-it-park-imeni-bashira-rameeva",
+    "city_id": "kazan",
+    "name_from_listing": "Казань ИТ-Парк имени Башира Рамеева",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/It-park-imeni-bashira-rameeva/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-kolokolnya-bogoyavlenskogo-sobora",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Колокольная Богоявленского собора",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/kolokolnya_bogoyavlenskogo_sobora/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-hram-vseh-religij",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Храм всех религий",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/hram_vseh_religij/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-kompleks-prisutstvennykh-mest",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Комплекс присутственных мест",
+    "detail_url": "https://visit-tatarstan.com/places/sightseeings/kompleks-prisutstvennykh-mest/",
+    "listing_source_url": "https://visit-tatarstan.com/places/sightseeings/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-teatr-opery-i-baleta-imeni-dzhalilya",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Театры Театр оперы и балета имени Мусы Джалиля",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/teatr_opery_i_baleta_imeni_dzhalilya/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-nacionalnyj-muzej-respubliki-tatarstan",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Музеи Национальный музей Республики Татарстан",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/nacionalnyj_muzej_respubliki_tatarstan/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-teatr-tinchurina",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Театры Театр Карима Тинчурина",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/teatr_tinchurina/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-bolshoj-dramaticheskij-teatr-imeni-kachalova",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Театры Большой драматический театр имени В.И. Качалова",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/bolshoj_dramaticheskij_teatr_imeni_kachalova/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-tatarskaya-gosudarstvennaya-filarmoniya-imeni-tukaya",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Татарская государственная филармония имени Габдуллы Тукая",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/tatarskaya_gosudarstvennaya_filarmoniya_imeni_tukaya/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-natsionalnaya-biblioteka-respubliki-tatarstan",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Национальная библиотека Республики Татарстан",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/natsionalnaya-biblioteka-respubliki-tatarstan/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-teatr-kukol-ekiyat",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Театр кукол «Экият»",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/teatr_kukol_ekiyat/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-muzej-chak-chaka",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Музеи Музей чак-чака",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/muzej_chak-chaka/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-piramida",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Культурно-развлекательный комплекс «Пирамида»",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/piramida/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-teatr-yunogo-zritelya",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Театр юного зрителя",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/teatr_yunogo_zritelya/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-tsentr-unikalnogo-masterstva-tsum",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Центр уникального мастерства (ЦУМ)",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/tsentr-unikalnogo-masterstva-tsum/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-kulturnyy-tsentr-moskovskiy",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Культурный центр «Московский»",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/Kulturnyy-tsentr-moskovskiy/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-multimediynyy-istoricheskiy-park-rossiya-moya-istoriya",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Мультимедийный исторический парк «Россия – моя история»",
+    "detail_url": "https://visit-tatarstan.com/places/cultural/Multimediynyy-istoricheskiy-park-rossiya-moya-istoriya/",
+    "listing_source_url": "https://visit-tatarstan.com/places/cultural/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-skver-u-dk-im-said-galieva-v-pos-derbyshki",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Сквер у ДК им. Саид-Галиева в пос. Дербышки",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/skver-u-dk-im-said-galieva-v-pos-derbyshki/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-skver-baki-urmanche",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Сквер Баки Урманче",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/skver-baki-urmanche/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-park-sosnovaya-roshcha-park-dk-khimikov",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Парк «Сосновая роща» (Парк ДК Химиков)",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/park-sosnovaya-roshcha-park-dk-khimikov/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-muzey-tramvaya-i-trolleybusa",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Музей трамвая и троллейбуса",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/muzey-tramvaya-i-trolleybusa/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-eko-park-dubrava",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Эко-парк Дубрава",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/eko-park-dubrava/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-russko-nemetskaya-shveytsariya",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Русско-Немецкая Швейцария",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/russko-nemetskaya-shveytsariya/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-ekstrim-park-uram",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Экстрим-парк «УРАМ»",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/ekstrim-park-uram/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-ulitsa-peterburgskaya",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Улица Петербургская",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/ulitsa-peterburgskaya/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "kazan-verevochnyy-park-pautina",
+    "city_id": "kazan",
+    "name_from_listing": "Казань Дети Веревочный парк «Паутина»",
+    "detail_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/verevochnyy-park-pautina/",
+    "listing_source_url": "https://visit-tatarstan.com/places/parki-i-mesta-dlya-progulok/",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Подтверждено упоминание в каталоге. Детальные поля ещё не собраны."
+  },
+  {
+    "id": "moscow-culture-11752",
+    "city_id": "moscow",
+    "name_from_listing": "Мультимедиа Арт Музей г. Москвы",
+    "detail_url": "https://www.culture.ru/institutes/11752/multimedia-art-muzei-g-moskvy",
+    "listing_source_url": "https://www.culture.ru/institutes/11752/multimedia-art-muzei-g-moskvy",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.741657,
+      "longitude": 37.59878,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-22345",
+    "city_id": "moscow",
+    "name_from_listing": "Новая Третьяковка",
+    "detail_url": "https://www.culture.ru/institutes/22345/novaya-tretyakovka",
+    "listing_source_url": "https://www.culture.ru/institutes/22345/novaya-tretyakovka",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.734643,
+      "longitude": 37.605768,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-21981",
+    "city_id": "moscow",
+    "name_from_listing": "Оружейная палата",
+    "detail_url": "https://www.culture.ru/institutes/21981/oruzheinaya-palata",
+    "listing_source_url": "https://www.culture.ru/institutes/21981/oruzheinaya-palata",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.74948847967523,
+      "longitude": 37.613330483436584,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-11245",
+    "city_id": "moscow",
+    "name_from_listing": "Центральный выставочный зал «Манеж»",
+    "detail_url": "https://www.culture.ru/institutes/11245/centralnyi-vystavochnyi-zal-manezh",
+    "listing_source_url": "https://www.culture.ru/institutes/11245/centralnyi-vystavochnyi-zal-manezh",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.753438,
+      "longitude": 37.612326,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-12381",
+    "city_id": "moscow",
+    "name_from_listing": "Центральный музей Вооруженных Сил Российской Федерации",
+    "detail_url": "https://www.culture.ru/institutes/12381/centralnyi-muzei-vooruzhennykh-sil-rossiiskoi-federacii",
+    "listing_source_url": "https://www.culture.ru/institutes/12381/centralnyi-muzei-vooruzhennykh-sil-rossiiskoi-federacii",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.78491430800927,
+      "longitude": 37.61690318584442,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-11515",
+    "city_id": "moscow",
+    "name_from_listing": "Центральный музей древнерусской культуры и искусства им. Андрея Рублева",
+    "detail_url": "https://www.culture.ru/institutes/11515/centralnyi-muzei-drevnerusskoi-kultury-i-iskusstva-im-andreya-rubleva",
+    "listing_source_url": "https://www.culture.ru/institutes/11515/centralnyi-muzei-drevnerusskoi-kultury-i-iskusstva-im-andreya-rubleva",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.748564,
+      "longitude": 37.670609,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-11230",
+    "city_id": "moscow",
+    "name_from_listing": "Государственный Дарвиновский музей",
+    "detail_url": "https://www.culture.ru/institutes/11230/gosudarstvennyi-darvinovskii-muzei",
+    "listing_source_url": "https://www.culture.ru/institutes/11230/gosudarstvennyi-darvinovskii-muzei",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.690623,
+      "longitude": 37.561491,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-7985",
+    "city_id": "moscow",
+    "name_from_listing": "Государственный научно-исследовательский музей архитектуры им. А.В. Щусева",
+    "detail_url": "https://www.culture.ru/institutes/7985/gosudarstvennyi-nauchno-issledovatelskii-muzei-arkhitektury-im-a-v-shuseva",
+    "listing_source_url": "https://www.culture.ru/institutes/7985/gosudarstvennyi-nauchno-issledovatelskii-muzei-arkhitektury-im-a-v-shuseva",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.752392803949455,
+      "longitude": 37.60747790336609,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-22162",
+    "city_id": "moscow",
+    "name_from_listing": "Мемориальный музей космонавтики",
+    "detail_url": "https://www.culture.ru/institutes/22162/memorialnyi-muzei-kosmonavtiki",
+    "listing_source_url": "https://www.culture.ru/institutes/22162/memorialnyi-muzei-kosmonavtiki",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.82333613068024,
+      "longitude": 37.63983949373699,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-11222",
+    "city_id": "moscow",
+    "name_from_listing": "Музей-заповедник «Остафьево»",
+    "detail_url": "https://www.culture.ru/institutes/11222/muzei-zapovednik-ostafevo",
+    "listing_source_url": "https://www.culture.ru/institutes/11222/muzei-zapovednik-ostafevo",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.496103,
+      "longitude": 37.501312,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10218",
+    "city_id": "moscow",
+    "name_from_listing": "Государственный академический Большой театр России (Историческая сцена)",
+    "detail_url": "https://www.culture.ru/institutes/10218",
+    "listing_source_url": "https://www.culture.ru/institutes/10218",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.76019989596756,
+      "longitude": 37.618587613105774,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10202",
+    "city_id": "moscow",
+    "name_from_listing": "Государственный академический Малый театр России. Историческая сцена",
+    "detail_url": "https://www.culture.ru/institutes/10202",
+    "listing_source_url": "https://www.culture.ru/institutes/10202",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.759547,
+      "longitude": 37.620582,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10471",
+    "city_id": "moscow",
+    "name_from_listing": "Государственный театр наций",
+    "detail_url": "https://www.culture.ru/institutes/10471",
+    "listing_source_url": "https://www.culture.ru/institutes/10471",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.765944,
+      "longitude": 37.612775,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10207",
+    "city_id": "moscow",
+    "name_from_listing": "Московский государственный театр «Ленком»",
+    "detail_url": "https://www.culture.ru/institutes/10207",
+    "listing_source_url": "https://www.culture.ru/institutes/10207",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.7677736685696,
+      "longitude": 37.6068797707558,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10166",
+    "city_id": "moscow",
+    "name_from_listing": "Московский драматический театр им. А.С. Пушкина",
+    "detail_url": "https://www.culture.ru/institutes/10166",
+    "listing_source_url": "https://www.culture.ru/institutes/10166",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.762287,
+      "longitude": 37.601528,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-6942",
+    "city_id": "moscow",
+    "name_from_listing": "Московский драматический театр им. Н.В. Гоголя",
+    "detail_url": "https://www.culture.ru/institutes/6942",
+    "listing_source_url": "https://www.culture.ru/institutes/6942",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.76244456451613,
+      "longitude": 37.662291526794434,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-20871",
+    "city_id": "moscow",
+    "name_from_listing": "Московский театр Олега Табакова",
+    "detail_url": "https://www.culture.ru/institutes/20871",
+    "listing_source_url": "https://www.culture.ru/institutes/20871",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.764197,
+      "longitude": 37.646139,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10486",
+    "city_id": "moscow",
+    "name_from_listing": "Московский театр на Таганке",
+    "detail_url": "https://www.culture.ru/institutes/10486",
+    "listing_source_url": "https://www.culture.ru/institutes/10486",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.74276715330751,
+      "longitude": 37.6538771693115,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10491",
+    "city_id": "moscow",
+    "name_from_listing": "Московский художественный академический театр им. М. Горького",
+    "detail_url": "https://www.culture.ru/institutes/10491",
+    "listing_source_url": "https://www.culture.ru/institutes/10491",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.761538,
+      "longitude": 37.60368399999999,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10479",
+    "city_id": "moscow",
+    "name_from_listing": "Театр Et Cetera п/р А. Калягина",
+    "detail_url": "https://www.culture.ru/institutes/10479",
+    "listing_source_url": "https://www.culture.ru/institutes/10479",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.765063,
+      "longitude": 37.635611,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10211",
+    "city_id": "moscow",
+    "name_from_listing": "Театр «Мастерская П.Н. Фоменко» (старая сцена)",
+    "detail_url": "https://www.culture.ru/institutes/10211",
+    "listing_source_url": "https://www.culture.ru/institutes/10211",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.74282764308915,
+      "longitude": 37.535133361816406,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-7596",
+    "city_id": "moscow",
+    "name_from_listing": "Театр «Практика» г. Москвы",
+    "detail_url": "https://www.culture.ru/institutes/7596",
+    "listing_source_url": "https://www.culture.ru/institutes/7596",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.765493,
+      "longitude": 37.594261,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10185",
+    "city_id": "moscow",
+    "name_from_listing": "Театр Маяковского. Основная сцена",
+    "detail_url": "https://www.culture.ru/institutes/10185",
+    "listing_source_url": "https://www.culture.ru/institutes/10185",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.756688007502326,
+      "longitude": 37.60168969631195,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10184",
+    "city_id": "moscow",
+    "name_from_listing": "Театр им. Евгения Вахтангова. Основная сцена",
+    "detail_url": "https://www.culture.ru/institutes/10184",
+    "listing_source_url": "https://www.culture.ru/institutes/10184",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.749891,
+      "longitude": 37.591521,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10711",
+    "city_id": "moscow",
+    "name_from_listing": "Театр им. Ермоловой",
+    "detail_url": "https://www.culture.ru/institutes/10711",
+    "listing_source_url": "https://www.culture.ru/institutes/10711",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.75768530276169,
+      "longitude": 37.61212977909852,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "moscow-culture-10208",
+    "city_id": "moscow",
+    "name_from_listing": "Театр на Бронной",
+    "detail_url": "https://www.culture.ru/institutes/10208",
+    "listing_source_url": "https://www.culture.ru/institutes/10208",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.75937598993728,
+      "longitude": 37.59777049323756,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-35579",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Парк культуры и отдыха «Дубки»",
+    "detail_url": "https://www.culture.ru/institutes/35579",
+    "listing_source_url": "https://www.culture.ru/institutes/35579",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 60.08896628001126,
+      "longitude": 29.943642142957682,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-613",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Главный штаб",
+    "detail_url": "https://www.culture.ru/institutes/613/glavnyi-shtab",
+    "listing_source_url": "https://www.culture.ru/institutes/613/glavnyi-shtab",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.93821653718232,
+      "longitude": 30.317435859760728,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-11448",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Государственный музей истории Санкт-Петербурга",
+    "detail_url": "https://www.culture.ru/institutes/11448/gosudarstvennyi-muzei-istorii-sankt-peterburga",
+    "listing_source_url": "https://www.culture.ru/institutes/11448/gosudarstvennyi-muzei-istorii-sankt-peterburga",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.949722,
+      "longitude": 30.318329,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10348",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Государственный музей истории религии",
+    "detail_url": "https://www.culture.ru/institutes/10348/gosudarstvennyi-muzei-istorii-religii",
+    "listing_source_url": "https://www.culture.ru/institutes/10348/gosudarstvennyi-muzei-istorii-religii",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.931688,
+      "longitude": 30.301136,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-5195",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Государственный музей-памятник «Исаакиевский собор»",
+    "detail_url": "https://www.culture.ru/institutes/5195/gosudarstvennyi-muzei-pamyatnik-isaakievskii-sobor",
+    "listing_source_url": "https://www.culture.ru/institutes/5195/gosudarstvennyi-muzei-pamyatnik-isaakievskii-sobor",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.933835021302414,
+      "longitude": 30.30664443969727,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-11459",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Государственный музейно-выставочный центр РОСФОТО",
+    "detail_url": "https://www.culture.ru/institutes/11459/gosudarstvennyi-muzeino-vystavochnyi-centr-rosfoto",
+    "listing_source_url": "https://www.culture.ru/institutes/11459/gosudarstvennyi-muzeino-vystavochnyi-centr-rosfoto",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.933311,
+      "longitude": 30.310442,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-11027",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Домик Петра I",
+    "detail_url": "https://www.culture.ru/institutes/11027/domik-petra-i",
+    "listing_source_url": "https://www.culture.ru/institutes/11027/domik-petra-i",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.953295,
+      "longitude": 30.330861,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-5641",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Мастерская Аникушина",
+    "detail_url": "https://www.culture.ru/institutes/5641/masterskaya-anikushina",
+    "listing_source_url": "https://www.culture.ru/institutes/5641/masterskaya-anikushina",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.97325455611296,
+      "longitude": 30.29702603816986,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10131",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Мемориальный музей-квартира А.С. Пушкина",
+    "detail_url": "https://www.culture.ru/institutes/10131/memorialnyi-muzei-kvartira-a-s-pushkina",
+    "listing_source_url": "https://www.culture.ru/institutes/10131/memorialnyi-muzei-kvartira-a-s-pushkina",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.941209,
+      "longitude": 30.32124,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-11016",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Михайловский (Инженерный) замок",
+    "detail_url": "https://www.culture.ru/institutes/11016/mikhailovskii-inzhenernyi-zamok",
+    "listing_source_url": "https://www.culture.ru/institutes/11016/mikhailovskii-inzhenernyi-zamok",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.94024,
+      "longitude": 30.337068,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-7616",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Музей антропологии и этнографии им. Петра Великого (Кунсткамера) РАН",
+    "detail_url": "https://www.culture.ru/institutes/7616/muzei-antropologii-i-etnografii-im-petra-velikogo-kunstkamera-ran",
+    "listing_source_url": "https://www.culture.ru/institutes/7616/muzei-antropologii-i-etnografii-im-petra-velikogo-kunstkamera-ran",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.94161785244114,
+      "longitude": 30.304487943649292,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-52979",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Музей истории медицины и фармации «РетроФармаМед»",
+    "detail_url": "https://www.culture.ru/institutes/52979/muzei-istorii-mediciny-i-farmacii-retrofarmamed",
+    "listing_source_url": "https://www.culture.ru/institutes/52979/muzei-istorii-mediciny-i-farmacii-retrofarmamed",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.931724,
+      "longitude": 30.3534,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-82104",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Музей оптических иллюзий на Невском проспекте, 3",
+    "detail_url": "https://www.culture.ru/institutes/82104/muzei-opticheskikh-illyuzii-na-nevskom-prospekte-3",
+    "listing_source_url": "https://www.culture.ru/institutes/82104/muzei-opticheskikh-illyuzii-na-nevskom-prospekte-3",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.936792,
+      "longitude": 30.312652,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-35134",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Некрополь XVIII века",
+    "detail_url": "https://www.culture.ru/institutes/35134/nekropol-xviii-veka",
+    "listing_source_url": "https://www.culture.ru/institutes/35134/nekropol-xviii-veka",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.92322989913595,
+      "longitude": 30.387346744537354,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-878",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Реставрационно-хранительский центр «Старая деревня»",
+    "detail_url": "https://www.culture.ru/institutes/878/restavracionno-khranitelskii-centr-staraya-derevnya",
+    "listing_source_url": "https://www.culture.ru/institutes/878/restavracionno-khranitelskii-centr-staraya-derevnya",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.989427,
+      "longitude": 30.262616,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-741",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Российский этнографический музей",
+    "detail_url": "https://www.culture.ru/institutes/741/rossiiskii-etnograficheskii-muzei",
+    "listing_source_url": "https://www.culture.ru/institutes/741/rossiiskii-etnograficheskii-muzei",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.937946,
+      "longitude": 30.334059,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-38462",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Санкт-Петербургский океанариум",
+    "detail_url": "https://www.culture.ru/institutes/38462/sankt-peterburgskii-okeanarium",
+    "listing_source_url": "https://www.culture.ru/institutes/38462/sankt-peterburgskii-okeanarium",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.91879426021673,
+      "longitude": 30.338374972343445,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-11790",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Центральный военно-морской музей",
+    "detail_url": "https://www.culture.ru/institutes/11790/centralnyi-voenno-morskoi-muzei",
+    "listing_source_url": "https://www.culture.ru/institutes/11790/centralnyi-voenno-morskoi-muzei",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.928573,
+      "longitude": 30.29456,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-11458",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Ботанический сад Петра Великого",
+    "detail_url": "https://www.culture.ru/institutes/11458/botanicheskii-sad-petra-velikogo",
+    "listing_source_url": "https://www.culture.ru/institutes/11458/botanicheskii-sad-petra-velikogo",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.97115,
+      "longitude": 30.322902,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-12182",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Всероссийский музей А.С. Пушкина",
+    "detail_url": "https://www.culture.ru/institutes/12182/vserossiiskii-muzei-a-s-pushkina",
+    "listing_source_url": "https://www.culture.ru/institutes/12182/vserossiiskii-muzei-a-s-pushkina",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.941191,
+      "longitude": 30.321168,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-21643",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Дом Кочневой",
+    "detail_url": "https://www.culture.ru/institutes/21643",
+    "listing_source_url": "https://www.culture.ru/institutes/21643",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.930705,
+      "longitude": 30.339269,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-1816",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Музей Академии Русского балета им. А.Я. Вагановой",
+    "detail_url": "https://www.culture.ru/institutes/1816/muzei-akademii-russkogo-baleta-im-a-ya-vaganovoi",
+    "listing_source_url": "https://www.culture.ru/institutes/1816/muzei-akademii-russkogo-baleta-im-a-ya-vaganovoi",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.9274956808828,
+      "longitude": 30.322265625000004,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-83588",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Церковный павильон Большого Меншиковского дворца",
+    "detail_url": "https://www.culture.ru/institutes/83588/cerkovnyi-pavilon-bolshogo-menshikovskogo-dvorca",
+    "listing_source_url": "https://www.culture.ru/institutes/83588/cerkovnyi-pavilon-bolshogo-menshikovskogo-dvorca",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.91568311903055,
+      "longitude": 29.7530771373901,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10215",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Академический Малый драматический театр — Театр Европы",
+    "detail_url": "https://www.culture.ru/institutes/10215",
+    "listing_source_url": "https://www.culture.ru/institutes/10215",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.93032114187397,
+      "longitude": 30.345150232315063,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-778",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Академический драматический театр имени В.Ф. Комиссаржевской",
+    "detail_url": "https://www.culture.ru/institutes/778",
+    "listing_source_url": "https://www.culture.ru/institutes/778",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.93607,
+      "longitude": 30.334841,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10444",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Академический театр комедии им. Н.П. Акимова",
+    "detail_url": "https://www.culture.ru/institutes/10444",
+    "listing_source_url": "https://www.culture.ru/institutes/10444",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.934227,
+      "longitude": 30.338137,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10210",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Большой драматический театр им. Г.А. Товстоногова",
+    "detail_url": "https://www.culture.ru/institutes/10210",
+    "listing_source_url": "https://www.culture.ru/institutes/10210",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.92744145490412,
+      "longitude": 30.330837965011597,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10154",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Большой театр кукол",
+    "detail_url": "https://www.culture.ru/institutes/10154",
+    "listing_source_url": "https://www.culture.ru/institutes/10154",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.939217,
+      "longitude": 30.352025,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10445",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Драматический театр «На Литейном»",
+    "detail_url": "https://www.culture.ru/institutes/10445",
+    "listing_source_url": "https://www.culture.ru/institutes/10445",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.937247,
+      "longitude": 30.346868999999998,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10449",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Мариинский театр (Основная сцена)",
+    "detail_url": "https://www.culture.ru/institutes/10449",
+    "listing_source_url": "https://www.culture.ru/institutes/10449",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.92548,
+      "longitude": 30.296015,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-22008",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Мариинский-2 (Новая сцена)",
+    "detail_url": "https://www.culture.ru/institutes/22008",
+    "listing_source_url": "https://www.culture.ru/institutes/22008",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.925223,
+      "longitude": 30.294219,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-1727",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Михайловский театр",
+    "detail_url": "https://www.culture.ru/institutes/1727",
+    "listing_source_url": "https://www.culture.ru/institutes/1727",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.93789882730985,
+      "longitude": 30.32924599769203,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10175",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Санкт-Петербургский Молодежный театр на Фонтанке",
+    "detail_url": "https://www.culture.ru/institutes/10175",
+    "listing_source_url": "https://www.culture.ru/institutes/10175",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.919153966144755,
+      "longitude": 30.31317782075266,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10209",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Санкт-Петербургский государственный академический театр имени Ленсовета",
+    "detail_url": "https://www.culture.ru/institutes/10209",
+    "listing_source_url": "https://www.culture.ru/institutes/10209",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.930187,
+      "longitude": 30.348333,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-5696",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Санкт-Петербургский государственный театр марионеток имени Е.С. Деммени",
+    "detail_url": "https://www.culture.ru/institutes/5696",
+    "listing_source_url": "https://www.culture.ru/institutes/5696",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.934474,
+      "longitude": 30.335838,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10447",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Санкт-Петербургский государственный театр музыкальной комедии",
+    "detail_url": "https://www.culture.ru/institutes/10447",
+    "listing_source_url": "https://www.culture.ru/institutes/10447",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.936296,
+      "longitude": 30.333116,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "saint-petersburg-culture-10674",
+    "city_id": "saint-petersburg",
+    "name_from_listing": "Театр эстрады им. Аркадия Райкина",
+    "detail_url": "https://www.culture.ru/institutes/10674",
+    "listing_source_url": "https://www.culture.ru/institutes/10674",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 59.93720172634025,
+      "longitude": 30.321676239611268,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-12390",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Музей народов Сибири и Дальнего Востока",
+    "detail_url": "https://www.culture.ru/institutes/12390/muzei-narodov-sibiri-i-dalnego-vostoka",
+    "listing_source_url": "https://www.culture.ru/institutes/12390/muzei-narodov-sibiri-i-dalnego-vostoka",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.833219115162976,
+      "longitude": 83.10351490974428,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-43333",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Мастерская Крикливого и Панькова",
+    "detail_url": "https://www.culture.ru/institutes/43333",
+    "listing_source_url": "https://www.culture.ru/institutes/43333",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.02876865638425,
+      "longitude": 82.91009759883309,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-3513",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Молодежный драматический театр «Первый театр»",
+    "detail_url": "https://www.culture.ru/institutes/3513",
+    "listing_source_url": "https://www.culture.ru/institutes/3513",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.029234,
+      "longitude": 82.908248,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-10190",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский академический молодежный театр «Глобус»",
+    "detail_url": "https://www.culture.ru/institutes/10190",
+    "listing_source_url": "https://www.culture.ru/institutes/10190",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.025194,
+      "longitude": 82.92832599999997,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-55264",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский академический театр оперы и балета (НОВАТ)",
+    "detail_url": "https://www.culture.ru/institutes/55264",
+    "listing_source_url": "https://www.culture.ru/institutes/55264",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.0304863175417,
+      "longitude": 82.92444356570996,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-10195",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский городской драматический театр под руководством С. Афанасьева",
+    "detail_url": "https://www.culture.ru/institutes/10195",
+    "listing_source_url": "https://www.culture.ru/institutes/10195",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.026773,
+      "longitude": 82.91857,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-2142",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский государственный академический драматический театр «Красный факел»",
+    "detail_url": "https://www.culture.ru/institutes/2142",
+    "listing_source_url": "https://www.culture.ru/institutes/2142",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.02838583564007,
+      "longitude": 82.90834665298463,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-28509",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский государственный драматический театр «Старый дом»",
+    "detail_url": "https://www.culture.ru/institutes/28509",
+    "listing_source_url": "https://www.culture.ru/institutes/28509",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.00753,
+      "longitude": 82.939186,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-58383",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский драматический театр",
+    "detail_url": "https://www.culture.ru/institutes/58383",
+    "listing_source_url": "https://www.culture.ru/institutes/58383",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.028022,
+      "longitude": 82.924751,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-10946",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский драматический театр «На левом берегу»",
+    "detail_url": "https://www.culture.ru/institutes/10946",
+    "listing_source_url": "https://www.culture.ru/institutes/10946",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.976592,
+      "longitude": 82.891145,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-11929",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский классический театр",
+    "detail_url": "https://www.culture.ru/institutes/11929",
+    "listing_source_url": "https://www.culture.ru/institutes/11929",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.021762,
+      "longitude": 82.921346,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-10648",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский музыкальный театр",
+    "detail_url": "https://www.culture.ru/institutes/10648",
+    "listing_source_url": "https://www.culture.ru/institutes/10648",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.03542343874545,
+      "longitude": 82.92638719081879,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-10645",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Новосибирский областной театр кукол",
+    "detail_url": "https://www.culture.ru/institutes/10645",
+    "listing_source_url": "https://www.culture.ru/institutes/10645",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.02942,
+      "longitude": 82.90952400000003,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-52786",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Сибирский камерный театр «13 трамвай»",
+    "detail_url": "https://www.culture.ru/institutes/52786",
+    "listing_source_url": "https://www.culture.ru/institutes/52786",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.06218551519874,
+      "longitude": 82.91263118792796,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-61443",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Театр «Дом актера»",
+    "detail_url": "https://www.culture.ru/institutes/61443",
+    "listing_source_url": "https://www.culture.ru/institutes/61443",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.028022,
+      "longitude": 82.924751,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-61392",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Театр «Пилигримы»",
+    "detail_url": "https://www.culture.ru/institutes/61392",
+    "listing_source_url": "https://www.culture.ru/institutes/61392",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.022861,
+      "longitude": 82.911006,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-10979",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Сибирский зоологический музей института систематики и экологии животных СО РАН",
+    "detail_url": "https://www.culture.ru/institutes/10979/sibirskii-zoologicheskii-muzei-instituta-sistematiki-i-ekologii-zhivotnykh-so-ran",
+    "listing_source_url": "https://www.culture.ru/institutes/10979/sibirskii-zoologicheskii-muzei-instituta-sistematiki-i-ekologii-zhivotnykh-so-ran",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.037263,
+      "longitude": 82.921238,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "novosibirsk-culture-10793",
+    "city_id": "novosibirsk",
+    "name_from_listing": "Синтез-театр «Остров»",
+    "detail_url": "https://www.culture.ru/institutes/10793",
+    "listing_source_url": "https://www.culture.ru/institutes/10793",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.847265,
+      "longitude": 83.093625,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-10659",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Коляда-Театр",
+    "detail_url": "https://www.culture.ru/institutes/10659",
+    "listing_source_url": "https://www.culture.ru/institutes/10659",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.843102,
+      "longitude": 60.641124,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-10921",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Малый драматический театр «Театрон»",
+    "detail_url": "https://www.culture.ru/institutes/10921",
+    "listing_source_url": "https://www.culture.ru/institutes/10921",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.83810519425011,
+      "longitude": 60.61142767857354,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-56335",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Передвижной камерный музыкальный театр «Живой театр»",
+    "detail_url": "https://www.culture.ru/institutes/56335",
+    "listing_source_url": "https://www.culture.ru/institutes/56335",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.834767,
+      "longitude": 60.608209,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-53311",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Свердловский академический театр драмы",
+    "detail_url": "https://www.culture.ru/institutes/53311",
+    "listing_source_url": "https://www.culture.ru/institutes/53311",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.843678,
+      "longitude": 60.593369,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-10630",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Свердловский государственный академический театр драмы",
+    "detail_url": "https://www.culture.ru/institutes/10630",
+    "listing_source_url": "https://www.culture.ru/institutes/10630",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.84356,
+      "longitude": 60.593288,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-5809",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Свердловский государственный академический театр музыкальной комедии",
+    "detail_url": "https://www.culture.ru/institutes/5809",
+    "listing_source_url": "https://www.culture.ru/institutes/5809",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.8399561865311,
+      "longitude": 60.6135356426239,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-10781",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Уральский государственный театр эстрады",
+    "detail_url": "https://www.culture.ru/institutes/10781",
+    "listing_source_url": "https://www.culture.ru/institutes/10781",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.83559567127142,
+      "longitude": 60.60029894113541,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-38019",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Учебный театр ЕГТИ",
+    "detail_url": "https://www.culture.ru/institutes/38019",
+    "listing_source_url": "https://www.culture.ru/institutes/38019",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.842452,
+      "longitude": 60.610976,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "yekaterinburg-culture-53428",
+    "city_id": "yekaterinburg",
+    "name_from_listing": "Центр современной драматургии",
+    "detail_url": "https://www.culture.ru/institutes/53428",
+    "listing_source_url": "https://www.culture.ru/institutes/53428",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.842209409063486,
+      "longitude": 60.66645278042599,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-35759",
+    "city_id": "kazan",
+    "name_from_listing": "Музей Пушечного двора",
+    "detail_url": "https://www.culture.ru/institutes/35759/muzei-pushechnogo-dvora",
+    "listing_source_url": "https://www.culture.ru/institutes/35759/muzei-pushechnogo-dvora",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.799399471491846,
+      "longitude": 49.1050323843956,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-4625",
+    "city_id": "kazan",
+    "name_from_listing": "Музей исламской культуры",
+    "detail_url": "https://www.culture.ru/institutes/4625/muzei-islamskoi-kultury",
+    "listing_source_url": "https://www.culture.ru/institutes/4625/muzei-islamskoi-kultury",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.798413456984235,
+      "longitude": 49.10522550344467,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-26850",
+    "city_id": "kazan",
+    "name_from_listing": "Музей истории Благовещенского собора",
+    "detail_url": "https://www.culture.ru/institutes/26850/muzei-istorii-blagoveshenskogo-sobora",
+    "listing_source_url": "https://www.culture.ru/institutes/26850/muzei-istorii-blagoveshenskogo-sobora",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.79986683967694,
+      "longitude": 49.105627834796906,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-6854",
+    "city_id": "kazan",
+    "name_from_listing": "Музей истории государственности татарского народа и Республики Татарстан",
+    "detail_url": "https://www.culture.ru/institutes/6854/muzei-istorii-gosudarstvennosti-tatarskogo-naroda-i-respubliki-tatarstan",
+    "listing_source_url": "https://www.culture.ru/institutes/6854/muzei-istorii-gosudarstvennosti-tatarskogo-naroda-i-respubliki-tatarstan",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.80080155921826,
+      "longitude": 49.105134308338165,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-22015",
+    "city_id": "kazan",
+    "name_from_listing": "Музей истории татарской литературы с мемориальной квартирой Шарифа Камала",
+    "detail_url": "https://www.culture.ru/institutes/22015/muzei-istorii-tatarskoi-literatury-s-memorialnoi-kvartiroi-sharifa-kamala",
+    "listing_source_url": "https://www.culture.ru/institutes/22015/muzei-istorii-tatarskoi-literatury-s-memorialnoi-kvartiroi-sharifa-kamala",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.78930573587764,
+      "longitude": 49.114444743518106,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-192",
+    "city_id": "kazan",
+    "name_from_listing": "Музей социалистического быта",
+    "detail_url": "https://www.culture.ru/institutes/192/muzei-socialisticheskogo-byta",
+    "listing_source_url": "https://www.culture.ru/institutes/192/muzei-socialisticheskogo-byta",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.787082,
+      "longitude": 49.119772,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-41530",
+    "city_id": "kazan",
+    "name_from_listing": "Музей-галерея «Дом Art»",
+    "detail_url": "https://www.culture.ru/institutes/41530/muzei-galereya-dom-art",
+    "listing_source_url": "https://www.culture.ru/institutes/41530/muzei-galereya-dom-art",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.78899832430238,
+      "longitude": 49.131218791007996,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-21486",
+    "city_id": "kazan",
+    "name_from_listing": "Музей-заповедник «Казанский кремль»",
+    "detail_url": "https://www.culture.ru/institutes/21486/muzei-zapovednik-kazanskii-kreml",
+    "listing_source_url": "https://www.culture.ru/institutes/21486/muzei-zapovednik-kazanskii-kreml",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.7975407934443,
+      "longitude": 49.107293486595104,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-22011",
+    "city_id": "kazan",
+    "name_from_listing": "Музей-мемориал Великой Отечественной войны 1941–1945 гг.",
+    "detail_url": "https://www.culture.ru/institutes/22011/muzei-memorial-velikoi-otechestvennoi-voiny-1941-1945-gg",
+    "listing_source_url": "https://www.culture.ru/institutes/22011/muzei-memorial-velikoi-otechestvennoi-voiny-1941-1945-gg",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.79894,
+      "longitude": 49.106001,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-11950",
+    "city_id": "kazan",
+    "name_from_listing": "Национальный музей Республики Татарстан",
+    "detail_url": "https://www.culture.ru/institutes/11950/nacionalnyi-muzei-respubliki-tatarstan",
+    "listing_source_url": "https://www.culture.ru/institutes/11950/nacionalnyi-muzei-respubliki-tatarstan",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.795747,
+      "longitude": 49.109621,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-36131",
+    "city_id": "kazan",
+    "name_from_listing": "Геологический музей им. А.А. Штукенберга",
+    "detail_url": "https://www.culture.ru/institutes/36131/geologicheskii-muzei-im-a-a-shtukenberga",
+    "listing_source_url": "https://www.culture.ru/institutes/36131/geologicheskii-muzei-im-a-a-shtukenberga",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.79395077135552,
+      "longitude": 49.11370128393173,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-21672",
+    "city_id": "kazan",
+    "name_from_listing": "Государственный Большой концертный зал им. С. Сайдашева",
+    "detail_url": "https://www.culture.ru/institutes/21672",
+    "listing_source_url": "https://www.culture.ru/institutes/21672",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.796987,
+      "longitude": 49.126536,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-60818",
+    "city_id": "kazan",
+    "name_from_listing": "Дом занимательной науки и техники",
+    "detail_url": "https://www.culture.ru/institutes/60818/dom-zanimatelnoi-nauki-i-tekhniki",
+    "listing_source_url": "https://www.culture.ru/institutes/60818/dom-zanimatelnoi-nauki-i-tekhniki",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.774375,
+      "longitude": 49.119988,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-22034",
+    "city_id": "kazan",
+    "name_from_listing": "Литературный музей Габдуллы Тукая",
+    "detail_url": "https://www.culture.ru/institutes/22034/literaturnyi-muzei-gabdully-tukaya",
+    "listing_source_url": "https://www.culture.ru/institutes/22034/literaturnyi-muzei-gabdully-tukaya",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.777499246329405,
+      "longitude": 49.115401804447174,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-22035",
+    "city_id": "kazan",
+    "name_from_listing": "Музей А.М. Горького и Ф.И. Шаляпина",
+    "detail_url": "https://www.culture.ru/institutes/22035/muzei-a-m-gorkogo-i-f-i-shalyapina",
+    "listing_source_url": "https://www.culture.ru/institutes/22035/muzei-a-m-gorkogo-i-f-i-shalyapina",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.793582529708615,
+      "longitude": 49.12966310977936,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-11400",
+    "city_id": "kazan",
+    "name_from_listing": "Музей Е.А. Боратынского",
+    "detail_url": "https://www.culture.ru/institutes/11400/muzei-e-a-boratynskogo",
+    "listing_source_url": "https://www.culture.ru/institutes/11400/muzei-e-a-boratynskogo",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.79382268989082,
+      "longitude": 49.135742865081795,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-29109",
+    "city_id": "kazan",
+    "name_from_listing": "Музей оружия «Дух воина»",
+    "detail_url": "https://www.culture.ru/institutes/29109/muzei-oruzhiya-dukh-voina",
+    "listing_source_url": "https://www.culture.ru/institutes/29109/muzei-oruzhiya-dukh-voina",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.79956550446537,
+      "longitude": 49.103801250457764,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-11401",
+    "city_id": "kazan",
+    "name_from_listing": "Музей-квартира Мусы Джалиля",
+    "detail_url": "https://www.culture.ru/institutes/11401/muzei-kvartira-musy-dzhalilya",
+    "listing_source_url": "https://www.culture.ru/institutes/11401/muzei-kvartira-musy-dzhalilya",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.793202,
+      "longitude": 49.137603,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-36124",
+    "city_id": "kazan",
+    "name_from_listing": "Музей Казанской химической школы",
+    "detail_url": "https://www.culture.ru/institutes/36124/muzei-kazanskoi-khimicheskoi-shkoly",
+    "listing_source_url": "https://www.culture.ru/institutes/36124/muzei-kazanskoi-khimicheskoi-shkoly",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.78994622664347,
+      "longitude": 49.12211000919342,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-36071",
+    "city_id": "kazan",
+    "name_from_listing": "Музей истории Казанского университета",
+    "detail_url": "https://www.culture.ru/institutes/36071/muzei-istorii-kazanskogo-universiteta",
+    "listing_source_url": "https://www.culture.ru/institutes/36071/muzei-istorii-kazanskogo-universiteta",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.790848,
+      "longitude": 49.121775,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-10561",
+    "city_id": "kazan",
+    "name_from_listing": "Казанский государственный академический русский драматический театр им. В.И. Качалова",
+    "detail_url": "https://www.culture.ru/institutes/10561",
+    "listing_source_url": "https://www.culture.ru/institutes/10561",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.790909,
+      "longitude": 49.11272,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-10149",
+    "city_id": "kazan",
+    "name_from_listing": "Казанский государственный театр юного зрителя на ул. Островского",
+    "detail_url": "https://www.culture.ru/institutes/10149",
+    "listing_source_url": "https://www.culture.ru/institutes/10149",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.789355,
+      "longitude": 49.113313,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-54417",
+    "city_id": "kazan",
+    "name_from_listing": "Казанский камерный театр SDVIG",
+    "detail_url": "https://www.culture.ru/institutes/54417",
+    "listing_source_url": "https://www.culture.ru/institutes/54417",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.796744,
+      "longitude": 49.121605,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-9357",
+    "city_id": "kazan",
+    "name_from_listing": "Казанский татарский государственный театр юного зрителя им. Габдуллы Кариева",
+    "detail_url": "https://www.culture.ru/institutes/9357",
+    "listing_source_url": "https://www.culture.ru/institutes/9357",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.783753773864824,
+      "longitude": 49.12365817814134,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-13881",
+    "city_id": "kazan",
+    "name_from_listing": "Молодежный театр на Булаке",
+    "detail_url": "https://www.culture.ru/institutes/13881",
+    "listing_source_url": "https://www.culture.ru/institutes/13881",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.793328205133,
+      "longitude": 49.10788357257844,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-89294",
+    "city_id": "kazan",
+    "name_from_listing": "Студия творческого развития «Оперение»",
+    "detail_url": "https://www.culture.ru/institutes/89294",
+    "listing_source_url": "https://www.culture.ru/institutes/89294",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.77995,
+      "longitude": 49.138098,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-10559",
+    "city_id": "kazan",
+    "name_from_listing": "Татарский академический государственный театр оперы и балета им. М. Джалиля",
+    "detail_url": "https://www.culture.ru/institutes/10559",
+    "listing_source_url": "https://www.culture.ru/institutes/10559",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.795373,
+      "longitude": 49.124668,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-99973",
+    "city_id": "kazan",
+    "name_from_listing": "Татарский государственный академический театр им. Г. Камала на ул. Хади Такташа",
+    "detail_url": "https://www.culture.ru/institutes/99973",
+    "listing_source_url": "https://www.culture.ru/institutes/99973",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.770952,
+      "longitude": 49.129357,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-10562",
+    "city_id": "kazan",
+    "name_from_listing": "Татарский государственный академический театр им. Галиаскара Камала",
+    "detail_url": "https://www.culture.ru/institutes/10562",
+    "listing_source_url": "https://www.culture.ru/institutes/10562",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.782739,
+      "longitude": 49.117257,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-10558",
+    "city_id": "kazan",
+    "name_from_listing": "Татарский государственный академический театр кукол «Экият»",
+    "detail_url": "https://www.culture.ru/institutes/10558",
+    "listing_source_url": "https://www.culture.ru/institutes/10558",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.77995,
+      "longitude": 49.138098,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-10419",
+    "city_id": "kazan",
+    "name_from_listing": "Татарский государственный театр драмы и комедии им. К. Тинчурина",
+    "detail_url": "https://www.culture.ru/institutes/10419",
+    "listing_source_url": "https://www.culture.ru/institutes/10419",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.794361,
+      "longitude": 49.130201,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-49861",
+    "city_id": "kazan",
+    "name_from_listing": "Творческая лаборатория «Угол»",
+    "detail_url": "https://www.culture.ru/institutes/49861",
+    "listing_source_url": "https://www.culture.ru/institutes/49861",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.781534,
+      "longitude": 49.11254,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-79896",
+    "city_id": "kazan",
+    "name_from_listing": "Театр «Созвездие-Йолдызлык»",
+    "detail_url": "https://www.culture.ru/institutes/79896",
+    "listing_source_url": "https://www.culture.ru/institutes/79896",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.809186,
+      "longitude": 49.067822,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-49895",
+    "city_id": "kazan",
+    "name_from_listing": "Театральная площадка MOÑ",
+    "detail_url": "https://www.culture.ru/institutes/49895",
+    "listing_source_url": "https://www.culture.ru/institutes/49895",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.801749,
+      "longitude": 49.125629,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "kazan-culture-61482",
+    "city_id": "kazan",
+    "name_from_listing": "Учебный театр г. Казань",
+    "detail_url": "https://www.culture.ru/institutes/61482",
+    "listing_source_url": "https://www.culture.ru/institutes/61482",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.791046,
+      "longitude": 49.117113,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-87207",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Кулинарный театр «Театр со вкусом»",
+    "detail_url": "https://www.culture.ru/institutes/87207",
+    "listing_source_url": "https://www.culture.ru/institutes/87207",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.318136,
+      "longitude": 43.995234,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-83408",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нетеатр",
+    "detail_url": "https://www.culture.ru/institutes/83408",
+    "listing_source_url": "https://www.culture.ru/institutes/83408",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.324691,
+      "longitude": 44.004253,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-10148",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский государственный академический театр драмы им. М. Горького",
+    "detail_url": "https://www.culture.ru/institutes/10148",
+    "listing_source_url": "https://www.culture.ru/institutes/10148",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.324157,
+      "longitude": 44.001351,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-21354",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский государственный академический театр кукол",
+    "detail_url": "https://www.culture.ru/institutes/21354",
+    "listing_source_url": "https://www.culture.ru/institutes/21354",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.31834161809989,
+      "longitude": 43.99584196560669,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-6608",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский государственный академический театр оперы и балета им. А.С. Пушкина",
+    "detail_url": "https://www.culture.ru/institutes/6608",
+    "listing_source_url": "https://www.culture.ru/institutes/6608",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.31551,
+      "longitude": 44.017143,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-10950",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский государственный ордена «Знак Почета» театр юного зрителя",
+    "detail_url": "https://www.culture.ru/institutes/10950",
+    "listing_source_url": "https://www.culture.ru/institutes/10950",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.316499,
+      "longitude": 44.010559,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-56715",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский дом актера им. В.В. Вихрова",
+    "detail_url": "https://www.culture.ru/institutes/56715",
+    "listing_source_url": "https://www.culture.ru/institutes/56715",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.324226,
+      "longitude": 44.003804,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-21447",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский камерный музыкальный театр им. В.Т. Степанова",
+    "detail_url": "https://www.culture.ru/institutes/21447",
+    "listing_source_url": "https://www.culture.ru/institutes/21447",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.343852104786414,
+      "longitude": 43.862797390213004,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-52582",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский независимый театр на Счастливой",
+    "detail_url": "https://www.culture.ru/institutes/52582",
+    "listing_source_url": "https://www.culture.ru/institutes/52582",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.25930700140563,
+      "longitude": 43.86888006077775,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-10650",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Нижегородский театр «Комедия»",
+    "detail_url": "https://www.culture.ru/institutes/10650",
+    "listing_source_url": "https://www.culture.ru/institutes/10650",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.320388,
+      "longitude": 44.002321,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-10649",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Театр «Вера» г. Нижнего Новгорода",
+    "detail_url": "https://www.culture.ru/institutes/10649",
+    "listing_source_url": "https://www.culture.ru/institutes/10649",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.340789,
+      "longitude": 43.932055,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-10951",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Театр «Пиано»",
+    "detail_url": "https://www.culture.ru/institutes/10951",
+    "listing_source_url": "https://www.culture.ru/institutes/10951",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.265302,
+      "longitude": 43.99694,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-54276",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Театр кукол «Мабу»",
+    "detail_url": "https://www.culture.ru/institutes/54276",
+    "listing_source_url": "https://www.culture.ru/institutes/54276",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.34412599920231,
+      "longitude": 43.806191871560735,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-10800",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Театр музыкально-пластической драмы «Преображение»",
+    "detail_url": "https://www.culture.ru/institutes/10800",
+    "listing_source_url": "https://www.culture.ru/institutes/10800",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.301319,
+      "longitude": 43.940661000000006,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-10788",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Учебный театр Нижегородского театрального училища им. Е.А. Евстигнеева",
+    "detail_url": "https://www.culture.ru/institutes/10788",
+    "listing_source_url": "https://www.culture.ru/institutes/10788",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.32485365162642,
+      "longitude": 44.003606597553244,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "nizhny-novgorod-culture-56325",
+    "city_id": "nizhny-novgorod",
+    "name_from_listing": "Центр театрального мастерства г. Нижнего Новгорода",
+    "detail_url": "https://www.culture.ru/institutes/56325",
+    "listing_source_url": "https://www.culture.ru/institutes/56325",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.32207,
+      "longitude": 44.012194,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "samara-culture-10392",
+    "city_id": "samara",
+    "name_from_listing": "Театр «Самарская площадь»",
+    "detail_url": "https://www.culture.ru/institutes/10392",
+    "listing_source_url": "https://www.culture.ru/institutes/10392",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 53.198716,
+      "longitude": 50.113084000000015,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "samara-culture-102059",
+    "city_id": "samara",
+    "name_from_listing": "Театр для детей и молодежи «Мастерская»",
+    "detail_url": "https://www.culture.ru/institutes/102059",
+    "listing_source_url": "https://www.culture.ru/institutes/102059",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 53.193278,
+      "longitude": 50.130098,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "samara-culture-10930",
+    "city_id": "samara",
+    "name_from_listing": "Театр драмы «Камерная сцена»",
+    "detail_url": "https://www.culture.ru/institutes/10930",
+    "listing_source_url": "https://www.culture.ru/institutes/10930",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 53.189674,
+      "longitude": 50.092252,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "samara-culture-21134",
+    "city_id": "samara",
+    "name_from_listing": "Театр кукол «Лукоморье» г. Самары",
+    "detail_url": "https://www.culture.ru/institutes/21134",
+    "listing_source_url": "https://www.culture.ru/institutes/21134",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 53.193547,
+      "longitude": 50.110506,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "samara-culture-94667",
+    "city_id": "samara",
+    "name_from_listing": "Театральное пространство «Дом»",
+    "detail_url": "https://www.culture.ru/institutes/94667",
+    "listing_source_url": "https://www.culture.ru/institutes/94667",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 53.20851,
+      "longitude": 50.1663,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "krasnoyarsk-culture-10820",
+    "city_id": "krasnoyarsk",
+    "name_from_listing": "Красноярский музыкальный театр",
+    "detail_url": "https://www.culture.ru/institutes/10820",
+    "listing_source_url": "https://www.culture.ru/institutes/10820",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.009703,
+      "longitude": 92.835845,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "krasnoyarsk-culture-10817",
+    "city_id": "krasnoyarsk",
+    "name_from_listing": "Красноярский театр юного зрителя",
+    "detail_url": "https://www.culture.ru/institutes/10817",
+    "listing_source_url": "https://www.culture.ru/institutes/10817",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.99688626788964,
+      "longitude": 92.92859673500061,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "krasnoyarsk-culture-10770",
+    "city_id": "krasnoyarsk",
+    "name_from_listing": "Мим-театр «За двумя зайцами»",
+    "detail_url": "https://www.culture.ru/institutes/10770",
+    "listing_source_url": "https://www.culture.ru/institutes/10770",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.05307,
+      "longitude": 92.972811,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "krasnoyarsk-culture-102876",
+    "city_id": "krasnoyarsk",
+    "name_from_listing": "Площадка «ТЮЗ плюс»",
+    "detail_url": "https://www.culture.ru/institutes/102876",
+    "listing_source_url": "https://www.culture.ru/institutes/102876",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.999385,
+      "longitude": 92.904369,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "krasnoyarsk-culture-85751",
+    "city_id": "krasnoyarsk",
+    "name_from_listing": "Театр «Крылья» г. Красноярска",
+    "detail_url": "https://www.culture.ru/institutes/85751",
+    "listing_source_url": "https://www.culture.ru/institutes/85751",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.012436,
+      "longitude": 92.846778,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "krasnoyarsk-culture-35842",
+    "city_id": "krasnoyarsk",
+    "name_from_listing": "Музей истории финансовой системы Енисейской губернии",
+    "detail_url": "https://www.culture.ru/institutes/35842/muzei-istorii-finansovoi-sistemy-eniseiskoi-gubernii",
+    "listing_source_url": "https://www.culture.ru/institutes/35842/muzei-istorii-finansovoi-sistemy-eniseiskoi-gubernii",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.010503,
+      "longitude": 92.846688,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "krasnoyarsk-culture-91897",
+    "city_id": "krasnoyarsk",
+    "name_from_listing": "Фондохранилище «Природа»",
+    "detail_url": "https://www.culture.ru/institutes/91897/fondokhranilishe-priroda",
+    "listing_source_url": "https://www.culture.ru/institutes/91897/fondokhranilishe-priroda",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 56.032544,
+      "longitude": 92.808141,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "omsk-culture-10941",
+    "city_id": "omsk",
+    "name_from_listing": "Омский государственный драматический «Пятый театр»",
+    "detail_url": "https://www.culture.ru/institutes/10941",
+    "listing_source_url": "https://www.culture.ru/institutes/10941",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 55.01255593748567,
+      "longitude": 73.32925558090211,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "omsk-culture-7785",
+    "city_id": "omsk",
+    "name_from_listing": "Омский государственный музыкальный театр",
+    "detail_url": "https://www.culture.ru/institutes/7785",
+    "listing_source_url": "https://www.culture.ru/institutes/7785",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.982476,
+      "longitude": 73.383411,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "omsk-culture-10942",
+    "city_id": "omsk",
+    "name_from_listing": "Омский государственный театр куклы, актера, маски «Арлекин»",
+    "detail_url": "https://www.culture.ru/institutes/10942",
+    "listing_source_url": "https://www.culture.ru/institutes/10942",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.95748462816852,
+      "longitude": 73.38749170303346,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "omsk-culture-10945",
+    "city_id": "omsk",
+    "name_from_listing": "Омский драматический театр «Галерка»",
+    "detail_url": "https://www.culture.ru/institutes/10945",
+    "listing_source_url": "https://www.culture.ru/institutes/10945",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.95245346277485,
+      "longitude": 73.41403484344482,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "omsk-culture-33841",
+    "city_id": "omsk",
+    "name_from_listing": "Омский областной театр юных зрителей им. ХХ-летия Ленинского комсомола",
+    "detail_url": "https://www.culture.ru/institutes/33841",
+    "listing_source_url": "https://www.culture.ru/institutes/33841",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.978896,
+      "longitude": 73.37936,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "omsk-culture-56242",
+    "city_id": "omsk",
+    "name_from_listing": "Центр современной драматургии г. Омска",
+    "detail_url": "https://www.culture.ru/institutes/56242",
+    "listing_source_url": "https://www.culture.ru/institutes/56242",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 54.966861,
+      "longitude": 73.383537,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "perm-culture-10643",
+    "city_id": "perm",
+    "name_from_listing": "Пермский театр оперы и балета им. П.И. Чайковского",
+    "detail_url": "https://www.culture.ru/institutes/10643",
+    "listing_source_url": "https://www.culture.ru/institutes/10643",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 58.015961,
+      "longitude": 56.24582,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "perm-culture-102800",
+    "city_id": "perm",
+    "name_from_listing": "Пермский театр юного зрителя (малая сцена)",
+    "detail_url": "https://www.culture.ru/institutes/102800",
+    "listing_source_url": "https://www.culture.ru/institutes/102800",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 58.012009,
+      "longitude": 56.24635,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "perm-culture-102799",
+    "city_id": "perm",
+    "name_from_listing": "Пермский театр юного зрителя (основная сцена)",
+    "detail_url": "https://www.culture.ru/institutes/102799",
+    "listing_source_url": "https://www.culture.ru/institutes/102799",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 58.011366560728135,
+      "longitude": 56.24681499520908,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "perm-culture-10938",
+    "city_id": "perm",
+    "name_from_listing": "Театр «Балет Евгения Панфилова»",
+    "detail_url": "https://www.culture.ru/institutes/10938",
+    "listing_source_url": "https://www.culture.ru/institutes/10938",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 58.00733499772882,
+      "longitude": 56.19930310317992,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "perm-culture-85174",
+    "city_id": "perm",
+    "name_from_listing": "Театр «Данилин»",
+    "detail_url": "https://www.culture.ru/institutes/85174",
+    "listing_source_url": "https://www.culture.ru/institutes/85174",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 57.995614,
+      "longitude": 56.220182,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "perm-culture-60817",
+    "city_id": "perm",
+    "name_from_listing": "Театр кукол «Туки-Луки»",
+    "detail_url": "https://www.culture.ru/institutes/60817",
+    "listing_source_url": "https://www.culture.ru/institutes/60817",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 57.977259,
+      "longitude": 56.186082,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  },
+  {
+    "id": "perm-culture-11607",
+    "city_id": "perm",
+    "name_from_listing": "Ботанический сад Пермского государственного университета",
+    "detail_url": "https://www.culture.ru/institutes/11607/botanicheskii-sad-permskogo-gosudarstvennogo-universiteta",
+    "listing_source_url": "https://www.culture.ru/institutes/11607/botanicheskii-sad-permskogo-gosudarstvennogo-universiteta",
+    "checked_on": "2026-11-21",
+    "record_status": "candidate",
+    "note": "Карточка прочитана и отложена как дополнительный вариант после основного набора.",
+    "location": {
+      "latitude": 58.00861,
+      "longitude": 56.187806,
+      "kind": "source_map_marker",
+      "entrance_verified": false,
+      "status": "source_reported"
+    }
+  }
+]

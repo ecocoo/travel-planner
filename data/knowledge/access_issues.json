@@ -1,0 +1,85 @@
+[
+  {
+    "url": "https://www.culture.ru/institutes/101909/istoricheskii-park-rossiya-moya-istoriya",
+    "city_id": "krasnodar",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "404 Client Error: Not Found for url: https://www.culture.ru/institutes/101909/istoricheskii-park-rossiya-moya-istoriya",
+    "attempt_method": "direct_http"
+  },
+  {
+    "url": "https://www.culture.ru/institutes/61137/dvorec-kultury-zheleznodorozhnikov-g-ekaterinburga",
+    "city_id": "yekaterinburg",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "404 Client Error: Not Found for url: https://www.culture.ru/institutes/61137/dvorec-kultury-zheleznodorozhnikov-g-ekaterinburga",
+    "attempt_method": "direct_http"
+  },
+  {
+    "url": "https://www.culture.ru/institutes/36536/istoricheskii-park-rossiya-moya-istoriya-g-ufa",
+    "city_id": "ufa",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "404 Client Error: Not Found for url: https://www.culture.ru/institutes/36536/istoricheskii-park-rossiya-moya-istoriya-g-ufa",
+    "attempt_method": "direct_http"
+  },
+  {
+    "url": "https://www.culture.ru/institutes/84022/dvorec-kultury-zheleznodorozhnikov-g-krasnodara",
+    "city_id": "krasnodar",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "404 Client Error: Not Found for url: https://www.culture.ru/institutes/84022/dvorec-kultury-zheleznodorozhnikov-g-krasnodara",
+    "attempt_method": "direct_http"
+  },
+  {
+    "url": "https://tourism.krd.ru/sights/?cat=88",
+    "city_id": "krasnodar",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "TLS certificate hostname mismatch. Web reader returned HTTP 502. Search index readable.",
+    "attempt_method": "direct_http_and_web_reader"
+  },
+  {
+    "url": "https://visitkrd.ru/",
+    "city_id": "krasnodar",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "DNS resolution failed",
+    "attempt_method": "direct_http"
+  },
+  {
+    "url": "https://www.visit-tatarstan.com/",
+    "city_id": "kazan",
+    "checked_on": "2026-11-21",
+    "status": "rate_limited",
+    "error": "HTTP 429 on object cards. Requests stopped.",
+    "attempt_method": "direct_http",
+    "resolution_note": "На 21.11.2026 основной домен visit-tatarstan.com и проверенные карточки открылись через Chrome. Предыдущий сбой прямого HTTP-доступа сохранён в журнале."
+  },
+  {
+    "url": "https://depomoscow.ru/",
+    "city_id": "moscow",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "В Chrome показана страница хостинга «Аккаунт заблокирован администратором сервера».",
+    "attempt_method": "browser_accessibility"
+  },
+  {
+    "url": "https://azyktulek.ru/",
+    "city_id": "ufa",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "HTTPSConnectionPool(host='azyktulek.ru', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))",
+    "attempt_method": "direct_http",
+    "resolution_note": "Для карточки использованы сведения поискового индекса первичного сайта."
+  },
+  {
+    "url": "https://www.xn----7sbl0amdbp7au0if.xn--p1ai/stan-restoran/kontakty/",
+    "city_id": "krasnodar",
+    "checked_on": "2026-11-21",
+    "status": "unavailable",
+    "error": "503 Server Error: Service Unavailable for url: https://www.xn----7sbl0amdbp7au0if.xn--p1ai",
+    "attempt_method": "direct_http",
+    "resolution_note": "Для карточки использованы сведения поискового индекса первичного сайта."
+  }
+]

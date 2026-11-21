@@ -1,0 +1,17 @@
+﻿city,map_candidates,map_imported_places,scope,boundary_verified
+Москва,1957,8,city_centre_bbox,False
+Санкт-Петербург,1451,8,city_centre_bbox,False
+Новосибирск,239,8,city_centre_bbox,False
+Екатеринбург,321,6,city_centre_bbox,False
+Казань,155,6,small_city_centre_block,False
+Нижний Новгород,297,8,city_centre_bbox,False
+Челябинск,79,6,small_city_centre_block,False
+Самара,160,5,city_centre_bbox,False
+Уфа,143,5,small_city_centre_block,False
+Красноярск,158,8,city_centre_bbox,False
+Краснодар,245,8,city_centre_bbox,False
+Ростов-на-Дону,129,4,small_city_centre_block,False
+Омск,104,6,small_city_centre_block,False
+Воронеж,133,4,small_city_centre_block,False
+Пермь,198,8,city_centre_bbox,False
+Волгоград,86,5,small_city_centre_block,False

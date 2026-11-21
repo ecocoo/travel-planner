@@ -1,0 +1,183 @@
+[
+  {
+    "city_id": "ufa",
+    "name": "Уфимский городской планетарий",
+    "url": "https://www.culture.ru/institutes/45167/ufimskii-gorodskoi-planetarii",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "novosibirsk",
+    "name": "Новосибирский Дом ученых",
+    "url": "https://www.culture.ru/institutes/10518/novosibirskii-dom-uchenykh",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "moscow",
+    "name": "Дом Гоголя — мемориальный музей и научная библиотека (д. 7А)",
+    "url": "https://www.culture.ru/institutes/12257/dom-gogolya-memorialnyi-muzei-i-nauchnaya-biblioteka-d-7a",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "yekaterinburg",
+    "name": "Екатеринбургский музейный центр народного творчества «Гамаюн»",
+    "url": "https://www.culture.ru/institutes/11631/ekaterinburgskii-muzeinyi-centr-narodnogo-tvorchestva-gamayun",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "nizhny-novgorod",
+    "name": "Музей книги Нижегородской областной научной библиотеки",
+    "url": "https://www.culture.ru/institutes/22200/muzei-knigi-nizhegorodskoi-oblastnoi-nauchnoi-biblioteki",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "voronezh",
+    "name": "Учебно-методический центр сферы культуры и искусства",
+    "url": "https://www.culture.ru/institutes/37931/uchebno-metodicheskii-centr-sfery-kultury-i-iskusstva",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "voronezh",
+    "name": "Воронежский областной центр народного творчества и кино",
+    "url": "https://www.culture.ru/institutes/32717/voronezhskii-oblastnoi-centr-narodnogo-tvorchestva-i-kino",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "voronezh",
+    "name": "Дворец культуры г. Воронежа",
+    "url": "https://www.culture.ru/institutes/32001/dvorec-kultury-g-voronezha",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "voronezh",
+    "name": "Дворец культуры железнодорожников г. Воронежа",
+    "url": "https://www.culture.ru/institutes/86203/dvorec-kultury-zheleznodorozhnikov-g-voronezha",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "omsk",
+    "name": "Дворец культуры им. В.Е. Часницкого",
+    "url": "https://www.culture.ru/institutes/61249/dvorec-kultury-im-v-e-chasnickogo",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "novosibirsk",
+    "name": "Дворец культуры им. М. Горького города Новосибирска",
+    "url": "https://www.culture.ru/institutes/92430/dvorec-kultury-im-m-gorkogo-goroda-novosibirska",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "yekaterinburg",
+    "name": "Мультимедийный парк «Россия — моя история» г. Екатеринбурга",
+    "url": "https://www.culture.ru/institutes/101802/multimediinyi-park-rossiya-moya-istoriya-g-ekaterinburga",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "yekaterinburg",
+    "name": "Центр культуры «Урал»",
+    "url": "https://www.culture.ru/institutes/33830/centr-kultury-ural",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "kazan",
+    "name": "Центр культурного наследия Татарстана",
+    "url": "https://www.culture.ru/institutes/32719/centr-kulturnogo-naslediya-tatarstana",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "ufa",
+    "name": "Дом культуры «Дуслык»",
+    "url": "https://www.culture.ru/institutes/45038/dom-kultury-duslyk",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "ufa",
+    "name": "Центр культуры и народного творчества г. Уфы",
+    "url": "https://www.culture.ru/institutes/46365/centr-kultury-i-narodnogo-tvorchestva-g-ufy",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "ufa",
+    "name": "Городской культурно-досуговый центр Уфы",
+    "url": "https://www.culture.ru/institutes/31884/gorodskoi-kulturno-dosugovyi-centr-ufy",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "krasnoyarsk",
+    "name": "Культурно-исторический центр «Успенский»",
+    "url": "https://www.culture.ru/institutes/103338/kulturno-istoricheskii-centr-uspenskii",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "krasnodar",
+    "name": "Дом культуры № 1 Центрального внутригородского округа г. Краснодара",
+    "url": "https://www.culture.ru/institutes/63014/dom-kultury-1-centralnogo-vnutrigorodskogo-okruga-g-krasnodara",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "omsk",
+    "name": "Областной центр культуры «Сибиряк» на ул. 1-й Шинной",
+    "url": "https://www.culture.ru/institutes/96050/oblastnoi-centr-kultury-sibiryak-na-ul-1-i-shinnoi",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "omsk",
+    "name": "Дворец культуры студентов и молодежи «Звездный» г. Омска",
+    "url": "https://www.culture.ru/institutes/90410/dvorec-kultury-studentov-i-molodezhi-zvezdnyi-g-omska",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "omsk",
+    "name": "Областной центр культуры «Сибиряк» на ул. Красный Путь",
+    "url": "https://www.culture.ru/institutes/35217/oblastnoi-centr-kultury-sibiryak-na-ul-krasnyi-put",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "perm",
+    "name": "Дворец культуры им. В.И. Ленина г. Перми",
+    "url": "https://www.culture.ru/institutes/86770/dvorec-kultury-im-v-i-lenina-g-permi",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "perm",
+    "name": "Пермский городской дворец культуры им. А.Г. Солдатова",
+    "url": "https://www.culture.ru/institutes/32338/permskii-gorodskoi-dvorec-kultury-im-a-g-soldatova",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "volgograd",
+    "name": "Комплекс культуры и отдыха им. Ю.А. Гагарина",
+    "url": "https://www.culture.ru/institutes/38605/kompleks-kultury-i-otdykha-im-yu-a-gagarina",
+    "reason": "scheduled_cultural_venue_needs_review"
+  },
+  {
+    "city_id": "volgograd",
+    "name": "Волгоградский областной центр народного творчества",
+    "url": "https://www.culture.ru/institutes/38284/volgogradskii-oblastnoi-centr-narodnogo-tvorchestva",
+    "reason": "public_tourist_access_needs_review"
+  },
+  {
+    "city_id": "novosibirsk",
+    "name": "Сибирский центр современного искусства",
+    "url": "https://www.culture.ru/institutes/7079/sibirskii-centr-sovremennogo-iskusstva",
+    "reason": "coordinates_outside_city_cluster",
+    "distance_from_cluster_m": 282402
+  },
+  {
+    "city_id": "krasnodar",
+    "name": "Рязанский музей путешественников г. Краснодара",
+    "url": "https://www.culture.ru/institutes/103693/ryazanskii-muzei-puteshestvennikov-g-krasnodara",
+    "reason": "source_title_city_conflict"
+  },
+  {
+    "city_id": "perm",
+    "name": "Рязанский музей путешественников г. Перми",
+    "url": "https://www.culture.ru/institutes/103164/ryazanskii-muzei-puteshestvennikov-g-permi",
+    "reason": "source_title_city_conflict"
+  },
+  {
+    "city_id": "ufa",
+    "name": "Рязанский музей путешественников г. Уфы",
+    "url": "https://www.culture.ru/institutes/104391/ryazanskii-muzei-puteshestvennikov-g-ufy",
+    "reason": "source_title_city_conflict"
+  }
+]

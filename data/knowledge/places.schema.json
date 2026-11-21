@@ -1,0 +1,743 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Travel planner place research records",
+  "description": "Карточки исследованных мест. route_ready отражает отдельное решение о публикации; заполненное поле не означает подтверждение всего объекта.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "city_id",
+      "name",
+      "description",
+      "categories",
+      "entity_type",
+      "visit_mode",
+      "area",
+      "address",
+      "location",
+      "parent_place_id",
+      "opening_hours",
+      "visit_duration",
+      "admission",
+      "seasonality",
+      "accessibility",
+      "official_url",
+      "official_url_status",
+      "detail_url",
+      "record_status",
+      "route_ready",
+      "unresolved_fields",
+      "sources",
+      "checked_on"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "city_id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      },
+      "categories": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "enum": [
+            "architecture",
+            "history",
+            "walking",
+            "art",
+            "culture",
+            "science",
+            "religion",
+            "viewpoints",
+            "food",
+            "sport",
+            "nature",
+            "literature",
+            "family",
+            "entertainment",
+            "shopping"
+          ]
+        }
+      },
+      "entity_type": {
+        "enum": [
+          "complex",
+          "building",
+          "museum",
+          "monument",
+          "theatre",
+          "religious_site",
+          "waterfront",
+          "street",
+          "viewpoint",
+          "square",
+          "public_space",
+          "fort",
+          "cinema",
+          "concert_venue",
+          "event_venue",
+          "workshop",
+          "zoo",
+          "cultural_centre",
+          "restaurant",
+          "market",
+          "amusement_park",
+          "sports_venue",
+          "shop",
+          "cafe",
+          "food_court",
+          "aquarium",
+          "attraction"
+        ]
+      },
+      "visit_mode": {
+        "enum": [
+          "indoor",
+          "outdoor",
+          "mixed",
+          "exterior",
+          "scheduled"
+        ]
+      },
+      "area": {
+        "enum": [
+          "urban",
+          "urban_outlying",
+          "suburban"
+        ]
+      },
+      "address": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "location": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "required": [
+          "latitude",
+          "longitude",
+          "kind",
+          "entrance_verified",
+          "status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "latitude": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          },
+          "kind": {
+            "enum": [
+              "source_map_marker",
+              "osm_node",
+              "osm_way_center",
+              "osm_relation_center",
+              "osm_way_representative_point"
+            ]
+          },
+          "entrance_verified": {
+            "type": "boolean"
+          },
+          "status": {
+            "enum": [
+              "source_reported",
+              "conflicting"
+            ]
+          }
+        }
+      },
+      "parent_place_id": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "opening_hours": {
+        "type": "object",
+        "required": [
+          "status",
+          "source_url",
+          "weekly",
+          "recurring_closures",
+          "annual_closed_dates",
+          "notes",
+          "requires_calendar_resolution"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "enum": [
+              "unknown",
+              "portal_reported",
+              "official_source_read",
+              "map_reported"
+            ]
+          },
+          "source_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "weekly": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "mon": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "opens",
+                    "closes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "opens": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes_next_day": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "tue": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "opens",
+                    "closes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "opens": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes_next_day": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "wed": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "opens",
+                    "closes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "opens": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes_next_day": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "thu": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "opens",
+                    "closes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "opens": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes_next_day": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "fri": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "opens",
+                    "closes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "opens": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes_next_day": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "sat": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "opens",
+                    "closes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "opens": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes_next_day": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "sun": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "opens",
+                    "closes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "opens": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes": {
+                      "type": "string",
+                      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "closes_next_day": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            },
+            "required": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri",
+              "sat",
+              "sun"
+            ]
+          },
+          "recurring_closures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "weekday",
+                "ordinal"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "weekday": {
+                  "enum": [
+                    "mon",
+                    "tue",
+                    "wed",
+                    "thu",
+                    "fri",
+                    "sat",
+                    "sun"
+                  ]
+                },
+                "ordinal": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": -1,
+                  "maximum": 5
+                },
+                "months": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 12
+                  }
+                }
+              }
+            }
+          },
+          "annual_closed_dates": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[01][0-9]-[0-3][0-9]$"
+            }
+          },
+          "last_admission": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "exhibition_clearance_time": {
+            "type": "string",
+            "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "requires_calendar_resolution": {
+            "type": "boolean"
+          },
+          "raw": {
+            "type": "string"
+          }
+        }
+      },
+      "visit_duration": {
+        "type": "object",
+        "required": [
+          "minutes",
+          "basis",
+          "excludes"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "minutes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "basis": {
+            "enum": [
+              "editorial_estimate",
+              "unknown"
+            ]
+          },
+          "excludes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "admission": {
+        "type": "object",
+        "required": [
+          "price_rub",
+          "ticket_required",
+          "booking_required",
+          "timed_entry"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "price_rub": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "ticket_required": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "booking_required": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "timed_entry": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      },
+      "seasonality": {
+        "type": "object",
+        "required": [
+          "months",
+          "status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "months": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            }
+          },
+          "status": {
+            "enum": [
+              "unknown",
+              "source_reported"
+            ]
+          }
+        }
+      },
+      "accessibility": {
+        "type": "object",
+        "required": [
+          "wheelchair_accessible",
+          "status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "wheelchair_accessible": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "status": {
+            "enum": [
+              "unknown",
+              "official_limitations_reported"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "official_url": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "official_url_status": {
+        "enum": [
+          "unknown",
+          "linked_from_portal",
+          "official_source_read",
+          "linked_from_map"
+        ]
+      },
+      "detail_url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "record_status": {
+        "enum": [
+          "researched_draft",
+          "reviewed",
+          "map_imported"
+        ]
+      },
+      "route_ready": {
+        "type": "boolean"
+      },
+      "unresolved_fields": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "sources": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "url",
+            "kind",
+            "checked_on",
+            "method",
+            "fields"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "kind": {
+              "enum": [
+                "tourism_portal",
+                "venue_official",
+                "culture_portal",
+                "institutional_publication",
+                "open_map"
+              ]
+            },
+            "checked_on": {
+              "type": "string",
+              "format": "date"
+            },
+            "method": {
+              "enum": [
+                "direct_html",
+                "related_object_on_parent_page",
+                "web_read",
+                "search_index_of_official_page",
+                "embedded_page_json",
+                "browser_accessibility",
+                "overpass_json",
+                "osm_api_xml"
+              ]
+            },
+            "fields": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "content_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "license": {
+              "const": "ODbL-1.0"
+            },
+            "attribution": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "checked_on": {
+        "type": "string",
+        "format": "date"
+      },
+      "description_basis": {
+        "enum": [
+          "editorial_summary",
+          "source_excerpt"
+        ]
+      },
+      "research_notes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "external_ids": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "culture_ru": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "osm": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "id"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "node",
+                  "way",
+                  "relation"
+                ]
+              },
+              "id": {
+                "type": "string",
+                "pattern": "^[0-9]+$"
+              }
+            }
+          }
+        }
+      },
+      "map_tags": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

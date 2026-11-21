@@ -1,0 +1,2414 @@
+[
+  {
+    "id": "saint-petersburg-central-architecture",
+    "city_id": "saint-petersburg",
+    "name": "Архитектура центра и набережных",
+    "description": "Прогулка с внешним осмотром собора, памятника и дворца.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "saint-petersburg-isaakievskiy-sobor",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "saint-petersburg-tp-194718-mednyy-vsadnik",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "saint-petersburg-zimniy-dvorets-gosudarstvennyy-ermitazh",
+            "visit_mode": "exterior",
+            "duration_minutes": 30,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 4,
+            "place_id": "saint-petersburg-zimnyaya-kanavka",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Порядок предложен редакционно. Пешие переходы ещё не рассчитаны.",
+      "Для каждой даты требуется проверка расписаний, доступа и исключений."
+    ],
+    "source_urls": [
+      "https://visit-petersburg.ru/leisure/places/isaakievskiy-sobor/",
+      "https://visit-petersburg.ru/leisure/places/tp-194718-mednyy-vsadnik/",
+      "https://visit-petersburg.ru/leisure/places/zimniy-dvorets-gosudarstvennyy-ermitazh/",
+      "https://visit-petersburg.ru/leisure/places/zimnyaya-kanavka/"
+    ]
+  },
+  {
+    "id": "saint-petersburg-russian-art",
+    "city_id": "saint-petersburg",
+    "name": "Русское искусство и центр города",
+    "description": "Один большой музей и несколько коротких остановок в центре.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "saint-petersburg-gosudarstvennyy-russkiy-muzey",
+            "visit_mode": "indoor",
+            "duration_minutes": 150,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "saint-petersburg-ploshchad-iskusstv",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "saint-petersburg-sankt-peterburgskiy-dom-knigi",
+            "visit_mode": "exterior",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 4,
+            "place_id": "saint-petersburg-kazanskiy-kafedralnyy-sobor",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Порядок предложен редакционно. Пешие переходы ещё не рассчитаны.",
+      "Для каждой даты требуется проверка расписаний, доступа и исключений."
+    ],
+    "source_urls": [
+      "https://visit-petersburg.ru/leisure/places/gosudarstvennyy-russkiy-muzey/",
+      "https://visit-petersburg.ru/leisure/places/ploshchad-iskusstv/",
+      "https://visit-petersburg.ru/leisure/places/sankt-peterburgskiy-dom-knigi/",
+      "https://visit-petersburg.ru/leisure/places/kazanskiy-kafedralnyy-sobor/"
+    ]
+  },
+  {
+    "id": "saint-petersburg-vasilyevsky-island",
+    "city_id": "saint-petersburg",
+    "name": "Музей и панорамы Васильевского острова",
+    "description": "Кунсткамера, панорама Невы и университетская архитектура.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "saint-petersburg-muzey-antropologii-i-etnografii-im-petra-velikogo-rossiyskoy-akademii-nauk-kunstkamera",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "saint-petersburg-strelka-vasilevskogo-ostrova",
+            "visit_mode": "outdoor",
+            "duration_minutes": 30,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "saint-petersburg-sankt-peterburgskiy-gosudarstvennyy-universitet-zdanie-dvenadtsati-kollegiy",
+            "visit_mode": "exterior",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Порядок предложен редакционно. Пешие переходы ещё не рассчитаны.",
+      "Для каждой даты требуется проверка расписаний, доступа и исключений."
+    ],
+    "source_urls": [
+      "https://visit-petersburg.ru/leisure/places/muzey-antropologii-i-etnografii-im-petra-velikogo-rossiyskoy-akademii-nauk-kunstkamera/",
+      "https://visit-petersburg.ru/leisure/places/strelka-vasilevskogo-ostrova/",
+      "https://visit-petersburg.ru/leisure/places/sankt-peterburgskiy-gosudarstvennyy-universitet-zdanie-dvenadtsati-kollegiy/"
+    ]
+  },
+  {
+    "id": "moscow-history",
+    "city_id": "moscow",
+    "name": "История города — Москва",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "moscow-culture-10106",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "moscow-culture-10124",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "moscow-culture-4200",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/10106/muzei-otechestvennoi-voiny-1812-goda",
+      "https://www.culture.ru/institutes/10124/gosudarstvennyi-istoricheskii-muzei",
+      "https://www.culture.ru/institutes/4200/muzei-moskovskogo-kremlya"
+    ]
+  },
+  {
+    "id": "moscow-art",
+    "city_id": "moscow",
+    "name": "Искусство и музеи — Москва",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "moscow-culture-22343",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "moscow-culture-10078",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "moscow-culture-8015",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/22343/inzhenernyi-korpus-tretyakovskoi-galerei",
+      "https://www.culture.ru/institutes/10078/gosudarstvennaya-tretyakovskaya-galereya",
+      "https://www.culture.ru/institutes/8015/gosudarstvennyi-muzei-izobrazitelnykh-iskusstv-im-a-s-pushkina"
+    ]
+  },
+  {
+    "id": "moscow-walk",
+    "city_id": "moscow",
+    "name": "Прогулка и культурные остановки — Москва",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "moscow-culture-42737",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "moscow-culture-27324",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "moscow-culture-27325",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/42737",
+      "https://www.culture.ru/institutes/27324/uspenskii-sobor",
+      "https://www.culture.ru/institutes/27325/cerkov-rizpolozheniya"
+    ]
+  },
+  {
+    "id": "kazan-history",
+    "city_id": "kazan",
+    "name": "История города — Казань",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "kazan-culture-27634",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "kazan-kazanskiy-kreml",
+            "visit_mode": "outdoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "kazan-sobor-kazanskoy-ikony-bozhiey-materi",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/27634/vystavochnyi-zal-manezh",
+      "https://www.visit-tatarstan.com/places/sightseeings/kazanskiy-kreml/",
+      "https://www.visit-tatarstan.com/places/sightseeings/sobor-kazanskoy-ikony-bozhiey-materi/"
+    ]
+  },
+  {
+    "id": "kazan-art",
+    "city_id": "kazan",
+    "name": "Искусство и музеи — Казань",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "kazan-culture-6680",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "kazan-culture-49334",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "kazan-culture-25852",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/6680/gosudarstvennyi-muzei-izobrazitelnykh-iskusstv-respubliki-tatarstan",
+      "https://www.culture.ru/institutes/49334/dom-muzei-vasiliya-aksyonova",
+      "https://www.culture.ru/institutes/25852/galereya-sovremennogo-iskusstva-gmii-rt"
+    ]
+  },
+  {
+    "id": "kazan-walk",
+    "city_id": "kazan",
+    "name": "Прогулка и культурные остановки — Казань",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "kazan-culture-92877",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "kazan-culture-99393",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "kazan-culture-92882",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/92877",
+      "https://www.culture.ru/institutes/99393",
+      "https://www.culture.ru/institutes/92882"
+    ]
+  },
+  {
+    "id": "novosibirsk-history",
+    "city_id": "novosibirsk",
+    "name": "История города — Новосибирск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "novosibirsk-culture-10516",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "novosibirsk-culture-98255",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "novosibirsk-culture-98938",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/10516/detskii-arkheologo-kraevedcheskii-muzei-masterskaya-predkov",
+      "https://www.culture.ru/institutes/98255",
+      "https://www.culture.ru/institutes/98938"
+    ]
+  },
+  {
+    "id": "novosibirsk-art",
+    "city_id": "novosibirsk",
+    "name": "Искусство и музеи — Новосибирск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "novosibirsk-culture-11546",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "novosibirsk-culture-11911",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "novosibirsk-culture-12277",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11546/muzei-n-k-rerikha",
+      "https://www.culture.ru/institutes/11911/novosibirskii-gosudarstvennyi-khudozhestvennyi-muzei",
+      "https://www.culture.ru/institutes/12277/muzei-sibirskaya-beresta"
+    ]
+  },
+  {
+    "id": "novosibirsk-walk",
+    "city_id": "novosibirsk",
+    "name": "Прогулка и культурные остановки — Новосибирск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "novosibirsk-culture-11551",
+            "visit_mode": "outdoor",
+            "duration_minutes": 30,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "novosibirsk-culture-60050",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "novosibirsk-culture-98227",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11551/muzei-na-naberezhnoi",
+      "https://www.culture.ru/institutes/60050/muzei-kontora-inzhenera-g-m-budagova",
+      "https://www.culture.ru/institutes/98227"
+    ]
+  },
+  {
+    "id": "yekaterinburg-history",
+    "city_id": "yekaterinburg",
+    "name": "История города — Екатеринбург",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "yekaterinburg-culture-10338",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "yekaterinburg-culture-4525",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "yekaterinburg-culture-22032",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/10338/muzei-istorii-kamnereznogo-i-yuvelirnogo-iskusstva",
+      "https://www.culture.ru/institutes/4525/muzei-istorii-ekaterinburga",
+      "https://www.culture.ru/institutes/22032/muzei-f-m-reshetnikova"
+    ]
+  },
+  {
+    "id": "yekaterinburg-art",
+    "city_id": "yekaterinburg",
+    "name": "Искусство и музеи — Екатеринбург",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "yekaterinburg-culture-1911",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "yekaterinburg-culture-82848",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "yekaterinburg-culture-12292",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/1911/ekaterinburgskii-muzei-izobrazitelnykh-iskusstv",
+      "https://www.culture.ru/institutes/82848/muzei-andegraunda",
+      "https://www.culture.ru/institutes/12292/khudozhestvennyi-muzei-ernsta-neizvestnogo"
+    ]
+  },
+  {
+    "id": "yekaterinburg-walk",
+    "city_id": "yekaterinburg",
+    "name": "Прогулка и культурные остановки — Екатеринбург",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "yekaterinburg-culture-22032",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "yekaterinburg-culture-106493",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "yekaterinburg-culture-22033",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/22032/muzei-f-m-reshetnikova",
+      "https://www.culture.ru/institutes/106493",
+      "https://www.culture.ru/institutes/22033/muzei-literaturnaya-zhizn-urala-xix-veka"
+    ]
+  },
+  {
+    "id": "nizhny-novgorod-history",
+    "city_id": "nizhny-novgorod",
+    "name": "История города — Нижний Новгород",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "nizhny-novgorod-culture-55972",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "nizhny-novgorod-culture-11254",
+            "visit_mode": "mixed",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "nizhny-novgorod-culture-54671",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/55972/manezh-g-nizhnii-novgorod",
+      "https://www.culture.ru/institutes/11254/nizhegorodskii-kreml",
+      "https://www.culture.ru/institutes/54671/nizhegorodskii-muzei-a-s-pushkina"
+    ]
+  },
+  {
+    "id": "nizhny-novgorod-art",
+    "city_id": "nizhny-novgorod",
+    "name": "Искусство и музеи — Нижний Новгород",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "nizhny-novgorod-culture-24537",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "nizhny-novgorod-culture-10333",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "nizhny-novgorod-culture-22207",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/24537/volgo-vyatskii-filial-gosudarstvennogo-muzeya-izobrazitelnykh-iskusstv-im-a-s-pushkina-arsenal",
+      "https://www.culture.ru/institutes/10333/nizhegorodskii-gosudarstvennyi-khudozhestvennyi-muzei-russkoe-iskusstvo",
+      "https://www.culture.ru/institutes/22207/nizhegorodskii-gosudarstvennyi-khudozhestvennyi-muzei-zarubezhnoe-iskusstvo"
+    ]
+  },
+  {
+    "id": "nizhny-novgorod-walk",
+    "city_id": "nizhny-novgorod",
+    "name": "Прогулка и культурные остановки — Нижний Новгород",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "nizhny-novgorod-culture-22197",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "nizhny-novgorod-culture-10532",
+            "visit_mode": "mixed",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "nizhny-novgorod-culture-80639",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/22197/park-pobedy-g-nizhnego-novgoroda",
+      "https://www.culture.ru/institutes/10532/usadba-rukavishnikovykh",
+      "https://www.culture.ru/institutes/80639"
+    ]
+  },
+  {
+    "id": "chelyabinsk-history",
+    "city_id": "chelyabinsk",
+    "name": "История города — Челябинск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "chelyabinsk-culture-48146",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "chelyabinsk-culture-3342",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "chelyabinsk-culture-48001",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/48146/detskii-muzei",
+      "https://www.culture.ru/institutes/3342/gosudarstvennyi-istoricheskii-muzei-yuzhnogo-urala",
+      "https://www.culture.ru/institutes/48001/muzei-na-kryshe"
+    ]
+  },
+  {
+    "id": "chelyabinsk-art",
+    "city_id": "chelyabinsk",
+    "name": "Искусство и музеи — Челябинск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "chelyabinsk-culture-51190",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "chelyabinsk-culture-12116",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "chelyabinsk-culture-82547",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/51190/galereya-otkrytyi-gorod",
+      "https://www.culture.ru/institutes/12116/chelyabinskii-muzei-izobrazitelnykh-iskusstv",
+      "https://www.culture.ru/institutes/82547/larisa-depershmidt-art-gallery"
+    ]
+  },
+  {
+    "id": "chelyabinsk-walk",
+    "city_id": "chelyabinsk",
+    "name": "Прогулка и культурные остановки — Челябинск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "chelyabinsk-culture-91141",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "chelyabinsk-culture-12116",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "chelyabinsk-culture-82547",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/91141",
+      "https://www.culture.ru/institutes/12116/chelyabinskii-muzei-izobrazitelnykh-iskusstv",
+      "https://www.culture.ru/institutes/82547/larisa-depershmidt-art-gallery"
+    ]
+  },
+  {
+    "id": "samara-history",
+    "city_id": "samara",
+    "name": "История города — Самара",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "samara-culture-11352",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "samara-culture-11342",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "samara-culture-9993",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11352/dom-muzei-v-i-lenina",
+      "https://www.culture.ru/institutes/26159/dom-muzei-v-i-lenina-v-samare",
+      "https://www.culture.ru/institutes/11342/samarskii-oblastnoi-istoriko-kraevedcheskii-muzei-im-p-v-alabina",
+      "https://www.culture.ru/institutes/9993/muzei-istorii-voisk-privo"
+    ]
+  },
+  {
+    "id": "samara-art",
+    "city_id": "samara",
+    "name": "Искусство и музеи — Самара",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "samara-culture-49969",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "samara-culture-11974",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "samara-culture-12212",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/49969/galereya-viktoriya",
+      "https://www.culture.ru/institutes/11974/samarskii-oblastnoi-khudozhestvennyi-muzei",
+      "https://www.culture.ru/institutes/12212/muzei-detskaya-kartinnaya-galereya-g-samary"
+    ]
+  },
+  {
+    "id": "samara-walk",
+    "city_id": "samara",
+    "name": "Прогулка и культурные остановки — Самара",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "samara-culture-35475",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "samara-culture-9993",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "samara-culture-11344",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/35475/strukovskii-sad",
+      "https://www.culture.ru/institutes/9993/muzei-istorii-voisk-privo",
+      "https://www.culture.ru/institutes/11344/muzei-moderna-osobnyak-a-p-kurlinoi"
+    ]
+  },
+  {
+    "id": "ufa-history",
+    "city_id": "ufa",
+    "name": "История города — Уфа",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "ufa-culture-3260",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "ufa-culture-11082",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "ufa-culture-11167",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/3260/muzei-arkheologii-i-etnografii",
+      "https://www.culture.ru/institutes/11082/nacionalnyi-muzei-respubliki-bashkortostan",
+      "https://www.culture.ru/institutes/11167/dom-muzei-sh-a-khudaiberdina"
+    ]
+  },
+  {
+    "id": "ufa-art",
+    "city_id": "ufa",
+    "name": "Искусство и музеи — Уфа",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "ufa-culture-11317",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "ufa-culture-11822",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "ufa-culture-11301",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11317/bashkirskii-gosudarstvennyi-khudozhestvennyi-muzei-im-m-v-nesterova",
+      "https://www.culture.ru/institutes/11822/memorialnyi-dom-muzei-mazhita-gafuri",
+      "https://www.culture.ru/institutes/11301/memorialnyi-dom-muzei-a-e-tyulkina"
+    ]
+  },
+  {
+    "id": "ufa-walk",
+    "city_id": "ufa",
+    "name": "Прогулка и культурные остановки — Уфа",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "ufa-culture-35536",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "ufa-culture-11157",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "ufa-culture-11301",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/35536/sad-imeni-s-t-aksakova",
+      "https://www.culture.ru/institutes/11157/memorialnyi-dom-muzei-s-t-aksakova",
+      "https://www.culture.ru/institutes/11301/memorialnyi-dom-muzei-a-e-tyulkina"
+    ]
+  },
+  {
+    "id": "krasnoyarsk-history",
+    "city_id": "krasnoyarsk",
+    "name": "История города — Красноярск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "krasnoyarsk-culture-87103",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "krasnoyarsk-culture-10117",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "krasnoyarsk-culture-108768",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/87103/dom-iskusstv-g-krasnoyarska-na-pr-mira-56",
+      "https://www.culture.ru/institutes/10117/krasnoyarskii-kraevoi-kraevedcheskii-muzei",
+      "https://www.culture.ru/institutes/108768/muzei-usadba-v-i-surikova-na-pr-mira"
+    ]
+  },
+  {
+    "id": "krasnoyarsk-art",
+    "city_id": "krasnoyarsk",
+    "name": "Искусство и музеи — Красноярск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "krasnoyarsk-culture-25239",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "krasnoyarsk-culture-7336",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "krasnoyarsk-culture-22157",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/25239/krasnoyarskii-khudozhestvennyi-muzei-im-v-i-surikova-otdel-iskusstva-xx-xxi-vekov",
+      "https://www.culture.ru/institutes/7336/krasnoyarskii-khudozhestvennyi-muzei-im-v-i-surikova",
+      "https://www.culture.ru/institutes/22157/literaturnyi-muzei-im-v-p-astafeva"
+    ]
+  },
+  {
+    "id": "krasnoyarsk-walk",
+    "city_id": "krasnoyarsk",
+    "name": "Прогулка и культурные остановки — Красноярск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "krasnoyarsk-culture-80471",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "krasnoyarsk-culture-80469",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "krasnoyarsk-culture-80493",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/80471",
+      "https://www.culture.ru/institutes/80469",
+      "https://www.culture.ru/institutes/80493"
+    ]
+  },
+  {
+    "id": "krasnodar-history",
+    "city_id": "krasnodar",
+    "name": "История города — Краснодар",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "krasnodar-culture-10225",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "krasnodar-culture-22237",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "krasnodar-culture-13910",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/10225/krasnodarskii-gosudarstvennyi-istoriko-arkheologicheskii-muzei-zapovednik-im-e-d-felicyna",
+      "https://www.culture.ru/institutes/22237/krasnodarskii-kraevoi-vystavochnyi-zal-izobrazitelnykh-iskusstv",
+      "https://www.culture.ru/institutes/13910/svyato-ekaterininskii-kafedralnyi-sobor"
+    ]
+  },
+  {
+    "id": "krasnodar-art",
+    "city_id": "krasnodar",
+    "name": "Искусство и музеи — Краснодар",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "krasnodar-culture-11694",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "krasnodar-culture-97634",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "krasnodar-culture-22237",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11694/krasnodarskii-kraevoi-khudozhestvennyi-muzei-im-f-a-kovalenko",
+      "https://www.culture.ru/institutes/97634/krasnodarskii-soyuz-khudozhnikov",
+      "https://www.culture.ru/institutes/22237/krasnodarskii-kraevoi-vystavochnyi-zal-izobrazitelnykh-iskusstv"
+    ]
+  },
+  {
+    "id": "krasnodar-walk",
+    "city_id": "krasnodar",
+    "name": "Прогулка и культурные остановки — Краснодар",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "krasnodar-culture-13910",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "krasnodar-culture-58216",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "krasnodar-culture-58215",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/13910/svyato-ekaterininskii-kafedralnyi-sobor",
+      "https://www.culture.ru/institutes/58216",
+      "https://www.culture.ru/institutes/58215"
+    ]
+  },
+  {
+    "id": "rostov-on-don-history",
+    "city_id": "rostov-on-don",
+    "name": "История города — Ростов-на-Дону",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "rostov-on-don-pamyatnik-a-p-chekhovu",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "rostov-on-don-culture-3709",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "rostov-on-don-culture-87705",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://visitdon.ru/things-to-do/dostoprimechatelnosti/pamyatnik-a-p-chekhovu/",
+      "https://www.culture.ru/institutes/3709/rostovskii-oblastnoi-muzei-kraevedeniya",
+      "https://www.culture.ru/institutes/87705/art-prostranstvo-kinoteatra-rostov"
+    ]
+  },
+  {
+    "id": "rostov-on-don-art",
+    "city_id": "rostov-on-don",
+    "name": "Искусство и музеи — Ростов-на-Дону",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "rostov-on-don-culture-41705",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "rostov-on-don-culture-20430",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "rostov-on-don-culture-11654",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/41705/galereya-nnn",
+      "https://www.culture.ru/institutes/20430/rostovskii-oblastnoi-muzei-izobrazitelnykh-iskusstv-na-ul-pushkinskoi",
+      "https://www.culture.ru/institutes/11654/rostovskii-oblastnoi-muzei-izobrazitelnykh-iskusstv-na-pr-chekhova"
+    ]
+  },
+  {
+    "id": "rostov-on-don-walk",
+    "city_id": "rostov-on-don",
+    "name": "Прогулка и культурные остановки — Ростов-на-Дону",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "rostov-on-don-culture-35525",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "rostov-on-don-korobeynik",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "rostov-on-don-pamyatnik-v-chest-osnovaniya-temernitskoy-tamozhni",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/35525/park-im-m-gorkogo",
+      "https://visitdon.ru/things-to-do/dostoprimechatelnosti/korobeynik/",
+      "https://visitdon.ru/things-to-do/dostoprimechatelnosti/pamyatnik-v-chest-osnovaniya-temernitskoy-tamozhni/"
+    ]
+  },
+  {
+    "id": "omsk-history",
+    "city_id": "omsk",
+    "name": "История города — Омск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "omsk-culture-40623",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "omsk-culture-11023",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "omsk-culture-60687",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/40623/muzei-im-m-a-vrubelya-general-gubernatorskii-dvorec",
+      "https://www.culture.ru/institutes/11023/omskii-gosudarstvennyi-istoriko-kraevedcheskii-muzei",
+      "https://www.culture.ru/institutes/60687/centr-izucheniya-istorii-grazhdanskoi-voiny"
+    ]
+  },
+  {
+    "id": "omsk-art",
+    "city_id": "omsk",
+    "name": "Искусство и музеи — Омск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "omsk-culture-11239",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "omsk-culture-8742",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "omsk-culture-10374",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11239/muzei-im-m-a-vrubelya-vrubelevskii-korpus",
+      "https://www.culture.ru/institutes/8742/art-galereya-kvadrat",
+      "https://www.culture.ru/institutes/10374/omskii-literaturnyi-muzei-imeni-f-m-dostoevskogo"
+    ]
+  },
+  {
+    "id": "omsk-walk",
+    "city_id": "omsk",
+    "name": "Прогулка и культурные остановки — Омск",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "omsk-culture-36217",
+            "visit_mode": "exterior",
+            "duration_minutes": 25,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "omsk-culture-2845",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "omsk-culture-33812",
+            "visit_mode": "mixed",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/36217/voskresenskii-voennyi-sobor",
+      "https://www.culture.ru/institutes/2845/muzeinyi-kompleks-voinskoi-slavy-omichei",
+      "https://www.culture.ru/institutes/33812/istoriko-kulturnyi-kompleks-omskaya-krepost",
+      "https://www.culture.ru/institutes/58648/omskaya-krepost"
+    ]
+  },
+  {
+    "id": "voronezh-history",
+    "city_id": "voronezh",
+    "name": "История города — Воронеж",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "voronezh-culture-11268",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "voronezh-culture-22229",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "voronezh-culture-83277",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11268/dom-muzei-i-s-nikitina",
+      "https://www.culture.ru/institutes/22229/voronezhskii-oblastnoi-kraevedcheskii-muzei",
+      "https://www.culture.ru/institutes/83277/muzei-petrovskie-korabli-g-voronezha"
+    ]
+  },
+  {
+    "id": "voronezh-art",
+    "city_id": "voronezh",
+    "name": "Искусство и музеи — Воронеж",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "voronezh-culture-12109",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "voronezh-culture-11387",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "voronezh-pamyatnik-petru",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/12109/dom-tyurinykh",
+      "https://www.culture.ru/institutes/11387/voronezhskii-oblastnoi-khudozhestvennyi-muzei-im-i-n-kramskogo",
+      "https://visit-voronezh.ru/guide/chto-posetit/pamyatniki-i-skulpturyi/pamyatnik-petru.html"
+    ]
+  },
+  {
+    "id": "voronezh-walk",
+    "city_id": "voronezh",
+    "name": "Прогулка и культурные остановки — Воронеж",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "voronezh-pamyatnik-svyatitelyu-mitrofanu",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "voronezh-pamyatnik-petru",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "voronezh-pamyatnik-ap-platonovu",
+            "visit_mode": "outdoor",
+            "duration_minutes": 20,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://visit-voronezh.ru/guide/chto-posetit/pamyatniki-i-skulpturyi/pamyatnik-svyatitelyu-mitrofanu.html",
+      "https://visit-voronezh.ru/guide/chto-posetit/pamyatniki-i-skulpturyi/pamyatnik-petru.html",
+      "https://visit-voronezh.ru/guide/chto-posetit/pamyatniki-i-skulpturyi/pamyatnik-ap-platonovu.html"
+    ]
+  },
+  {
+    "id": "perm-history",
+    "city_id": "perm",
+    "name": "История города — Пермь",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "perm-culture-24260",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "perm-culture-10296",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "perm-culture-103287",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/24260/dom-meshkova",
+      "https://www.culture.ru/institutes/10296/permskii-kraevedcheskii-muzei",
+      "https://www.culture.ru/institutes/103287/multimediinyi-park-rossiya-moya-istoriya-permskii-krai"
+    ]
+  },
+  {
+    "id": "perm-art",
+    "city_id": "perm",
+    "name": "Искусство и музеи — Пермь",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "perm-culture-12216",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "perm-culture-50096",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "perm-culture-3895",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/12216/permskaya-gosudarstvennaya-khudozhestvennaya-galereya",
+      "https://www.culture.ru/institutes/50096/khudozhestvennaya-galereya-permskii-period",
+      "https://www.culture.ru/institutes/3895/muzei-l-i-kuzmina-g-permi"
+    ]
+  },
+  {
+    "id": "perm-walk",
+    "city_id": "perm",
+    "name": "Прогулка и культурные остановки — Пермь",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "perm-culture-11128",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "perm-culture-65191",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "perm-culture-11739",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11128/muzei-diorama-dekabrskoe-vooruzhennoe-vosstanie-1905-goda",
+      "https://www.culture.ru/institutes/65191",
+      "https://www.culture.ru/institutes/11739/muzei-istorii-motovilikhinskikh-zavodov"
+    ]
+  },
+  {
+    "id": "volgograd-history",
+    "city_id": "volgograd",
+    "name": "История города — Волгоград",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "volgograd-culture-19830",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "volgograd-culture-90878",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "volgograd-culture-11011",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/19830/muzei-panorama-stalingradskaya-bitva",
+      "https://www.culture.ru/institutes/90878/zdanie-byvshego-cuma",
+      "https://www.culture.ru/institutes/11011/memorialno-istoricheskii-muzei-g-volgograda"
+    ]
+  },
+  {
+    "id": "volgograd-art",
+    "city_id": "volgograd",
+    "name": "Искусство и музеи — Волгоград",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "volgograd-culture-11182",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "volgograd-culture-11632",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "volgograd-culture-12088",
+            "visit_mode": "indoor",
+            "duration_minutes": 120,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/11182/volgogradskii-muzei-izobrazitelnykh-iskusstv-im-i-i-mashkova",
+      "https://www.culture.ru/institutes/11632/volgogradskaya-oblastnaya-detskaya-khudozhestvennaya-galereya",
+      "https://www.culture.ru/institutes/12088/vystavochnyi-zal-volgogradskogo-muzeya-izobrazitelnykh-iskusstv-im-i-i-mashkova"
+    ]
+  },
+  {
+    "id": "volgograd-walk",
+    "city_id": "volgograd",
+    "name": "Прогулка и культурные остановки — Волгоград",
+    "description": "Тематическая подборка из трёх мест. Порядок выбран по близости опубликованных координат.",
+    "origin": "editorial",
+    "days": [
+      {
+        "day_number": 1,
+        "stops": [
+          {
+            "order": 1,
+            "place_id": "volgograd-culture-42736",
+            "visit_mode": "outdoor",
+            "duration_minutes": 60,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 2,
+            "place_id": "volgograd-culture-107579",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          },
+          {
+            "order": 3,
+            "place_id": "volgograd-culture-11741",
+            "visit_mode": "indoor",
+            "duration_minutes": 90,
+            "duration_basis": "editorial_estimate"
+          }
+        ]
+      }
+    ],
+    "status": "draft",
+    "route_ready": false,
+    "walking_minutes": null,
+    "distance_meters": null,
+    "validation_notes": [
+      "Черновик автоматически скомпонован по категориям и близости точек из исследованного каталога.",
+      "Пешеходные переходы, входы, мосты и доступность для маломобильных посетителей ещё требуют проверки.",
+      "Для выбранной даты требуется сверка расписаний, билетов и санитарных дней.",
+      "Длительность остановок является редакционной оценкой и исключает переходы, очереди и питание."
+    ],
+    "source_urls": [
+      "https://www.culture.ru/institutes/42736",
+      "https://www.culture.ru/institutes/107579/istoricheskii-park-rossiya-moya-istoriya-g-volgograda",
+      "https://www.culture.ru/institutes/11741/volgogradskii-oblastnoi-kraevedcheskii-muzei"
+    ]
+  }
+]

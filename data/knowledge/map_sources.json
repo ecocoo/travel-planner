@@ -1,0 +1,519 @@
+{
+  "provider": "OpenStreetMap",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "checked_on": "2026-11-21",
+  "cities": [
+    {
+      "city_id": "moscow",
+      "city_name": "Москва",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        55.701659,
+        37.529221,
+        55.800473,
+        37.7048
+      ],
+      "centre": {
+        "latitude": 55.75106597511534,
+        "longitude": 37.61701047420502
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25][bbox:55.701659,37.529221,55.800473,37.7048];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "objects": 1957,
+      "osm_base_timestamp": "2026-11-21T15:35:18Z",
+      "content_sha256": "6858bb423274adf22032df43effdc8c736943f898e10dd0c7c39f1354d326276"
+    },
+    {
+      "city_id": "saint-petersburg",
+      "city_name": "Санкт-Петербург",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        59.888837,
+        30.219196,
+        59.987652,
+        30.416456
+      ],
+      "centre": {
+        "latitude": 59.938244523813,
+        "longitude": 30.317826
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25][bbox:59.888837,30.219196,59.987652,30.416456];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "objects": 1451,
+      "osm_base_timestamp": "2026-11-21T15:36:21Z",
+      "content_sha256": "ceebaff55be05da33a86015e6c7e14fca9ca41e64ca78273b9b6494af1caff68"
+    },
+    {
+      "city_id": "novosibirsk",
+      "city_name": "Новосибирск",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        54.973299,
+        82.83859,
+        55.072113,
+        83.010964
+      ],
+      "centre": {
+        "latitude": 55.022706,
+        "longitude": 82.924777
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25][bbox:54.973299,82.83859,55.072113,83.010964];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "objects": 239,
+      "osm_base_timestamp": "2026-11-21T15:37:21Z",
+      "content_sha256": "730d6e2e43975955a7971fea1ac9001479b20a41c589ddb4f6ff0a09e9767316"
+    },
+    {
+      "city_id": "yekaterinburg",
+      "city_name": "Екатеринбург",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        56.8,
+        60.54,
+        56.88,
+        60.68
+      ],
+      "centre": {
+        "latitude": 56.838405,
+        "longitude": 60.60649216175079
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:20];(nwr(56.8,60.54,56.88,60.68)[amenity=restaurant][name];nwr(56.8,60.54,56.88,60.68)[tourism=viewpoint][name];nwr(56.8,60.54,56.88,60.68)[leisure=sports_centre][name];nwr(56.8,60.54,56.88,60.68)[leisure=park][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:56.788998,60.516169,56.887812,60.696816];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "HTTPSConnectionPool(host='overpass-api.de', port=443): Read timed out. (read timeout=40)"
+        }
+      ],
+      "note": "Использована ранее успешно прочитанная небольшая выборка Екатеринбурга.",
+      "objects": 321,
+      "osm_base_timestamp": "2026-11-21T15:33:07Z",
+      "content_sha256": "0bf91a16ede9e2d5131b0b93c80aa4b20ad13d3502f8b5d1d03d3bc082c27fdb"
+    },
+    {
+      "city_id": "kazan",
+      "city_name": "Казань",
+      "scope": "small_city_centre_block",
+      "boundary_verified": false,
+      "bbox": [
+        55.791979,
+        49.105141,
+        55.803979,
+        49.129141
+      ],
+      "centre": {
+        "latitude": 55.79797855624818,
+        "longitude": 49.11714141973568
+      },
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+      "query": "https://api.openstreetmap.org/api/0.6/map?bbox=49.105141%2C55.791979%2C49.129141%2C55.803979",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:55.748571,49.029246,55.847386,49.205037];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A55.748571%2C49.029246%2C55.847386%2C49.205037%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna"
+        },
+        {
+          "query": "[out:json][timeout:20][bbox:55.748571,49.029246,55.847386,49.205037];(nwr[amenity=restaurant][name];nwr[tourism=viewpoint][name];nwr[leisure=sports_centre][name];nwr[leisure=park][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A20%5D%5Bbbox%3A55.748571%2C49.029246%2C55.847386%2C49.205037%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bname%5D%3Bnwr%5Bleisure%3Dsports_centre%5D%5B",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "bbox": [
+            55.748571,
+            49.029246,
+            55.847386,
+            49.205037
+          ]
+        }
+      ],
+      "objects": 155,
+      "method": "osm_api_bbox_xml",
+      "content_sha256": "7450bc47937c82db67786120fad8647d70bccedb29010dc3a1b6ef6487ff9997",
+      "response_sha256": "12f7d664203d72726893840723a98a0287eba7b56729b3415cf255619bcd645d",
+      "note": "Резервная небольшая выборка центрального квартала после сбоев Overpass. Геометрия части relation отсутствует. Полный охват города требует следующей выгрузки."
+    },
+    {
+      "city_id": "nizhny-novgorod",
+      "city_name": "Нижний Новгород",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        56.27447,
+        43.910518,
+        56.373284,
+        44.088723
+      ],
+      "centre": {
+        "latitude": 56.323876999999996,
+        "longitude": 43.99962065889548
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25][bbox:56.27447,43.910518,56.373284,44.088723];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "objects": 297,
+      "osm_base_timestamp": "2026-11-21T15:38:20Z",
+      "content_sha256": "f78dce15c38d36ca40bba02a78f07c181ce36cfc27f51798e01a985e5977d1e1"
+    },
+    {
+      "city_id": "chelyabinsk",
+      "city_name": "Челябинск",
+      "scope": "small_city_centre_block",
+      "boundary_verified": false,
+      "bbox": [
+        55.156059,
+        61.390008,
+        55.168059,
+        61.414008
+      ],
+      "centre": {
+        "latitude": 55.16205936179563,
+        "longitude": 61.40200779762267
+      },
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+      "query": "https://api.openstreetmap.org/api/0.6/map?bbox=61.390008%2C55.156059%2C61.414008%2C55.168059",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:55.112652,61.315519,55.211466,61.488496];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A55.112652%2C61.315519%2C55.211466%2C61.488496%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna"
+        },
+        {
+          "query": "[out:json][timeout:20][bbox:55.112652,61.315519,55.211466,61.488496];(nwr[amenity=restaurant][name];nwr[tourism=viewpoint][name];nwr[leisure=sports_centre][name];nwr[leisure=park][name];);out center tags;",
+          "status": "failed",
+          "error": "HTTPSConnectionPool(host='overpass-api.de', port=443): Read timed out. (read timeout=35)",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "bbox": [
+            55.112652,
+            61.315519,
+            55.211466,
+            61.488496
+          ]
+        }
+      ],
+      "objects": 79,
+      "method": "osm_api_bbox_xml",
+      "content_sha256": "71f7dcdf6b3d1b90b44d9ca7f0ab614242e8298bd2f2d0956ea364dc10ea0a29",
+      "response_sha256": "679e448426c735112482181c154459686d88cb406e29f0118e8ce6d047e34797",
+      "note": "Резервная небольшая выборка центрального квартала после сбоев Overpass. Геометрия части relation отсутствует. Полный охват города требует следующей выгрузки."
+    },
+    {
+      "city_id": "samara",
+      "city_name": "Самара",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        53.145364,
+        50.025763,
+        53.244178,
+        50.190702
+      ],
+      "centre": {
+        "latitude": 53.19477120544957,
+        "longitude": 50.108232496096605
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:20][bbox:53.145364,50.025763,53.244178,50.190702];(nwr[amenity=restaurant][name];nwr[tourism=viewpoint][name];nwr[leisure=sports_centre][name];nwr[leisure=park][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:53.145364,50.025763,53.244178,50.190702];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A53.145364%2C50.025763%2C53.244178%2C50.190702%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna"
+        }
+      ],
+      "objects": 160,
+      "osm_base_timestamp": "2026-11-21T15:42:27Z",
+      "content_sha256": "e383198eda07d3396945991737cacbadc88f4277356a86257083f7dfede79053"
+    },
+    {
+      "city_id": "ufa",
+      "city_name": "Уфа",
+      "scope": "small_city_centre_block",
+      "boundary_verified": false,
+      "bbox": [
+        54.720112,
+        55.939458,
+        54.732112,
+        55.963458
+      ],
+      "centre": {
+        "latitude": 54.7261115,
+        "longitude": 55.95145806402206
+      },
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+      "query": "https://api.openstreetmap.org/api/0.6/map?bbox=55.939458%2C54.720112%2C55.963458%2C54.732112",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:54.676704,55.865902,54.775519,56.037014];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A54.676704%2C55.865902%2C54.775519%2C56.037014%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna"
+        },
+        {
+          "query": "[out:json][timeout:20][bbox:54.676704,55.865902,54.775519,56.037014];(nwr[amenity=restaurant][name];nwr[tourism=viewpoint][name];nwr[leisure=sports_centre][name];nwr[leisure=park][name];);out center tags;",
+          "status": "failed",
+          "error": "HTTPSConnectionPool(host='overpass-api.de', port=443): Read timed out. (read timeout=35)",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "bbox": [
+            54.676704,
+            55.865902,
+            54.775519,
+            56.037014
+          ]
+        }
+      ],
+      "objects": 143,
+      "method": "osm_api_bbox_xml",
+      "content_sha256": "0c7013153436c371cb2b46131683956a4813adca83d2b56ed5fdc56f59d9e7cc",
+      "response_sha256": "ab9659c7bd5c1809ee20c222db77fff500c002fd25948ae3b2e3484f15663116",
+      "note": "Резервная небольшая выборка центрального квартала после сбоев Overpass. Геометрия части relation отсутствует. Полный охват города требует следующей выгрузки."
+    },
+    {
+      "city_id": "krasnoyarsk",
+      "city_name": "Красноярск",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        55.962442,
+        92.784501,
+        56.061256,
+        92.961264
+      ],
+      "centre": {
+        "latitude": 56.011849,
+        "longitude": 92.8728825
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25][bbox:55.962442,92.784501,56.061256,92.961264];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "objects": 158,
+      "osm_base_timestamp": "2026-11-21T15:39:20Z",
+      "content_sha256": "166f626561eb68aad41e7cce277f12216cd373777da11546f64a9679563d9e1a"
+    },
+    {
+      "city_id": "krasnodar",
+      "city_name": "Краснодар",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        44.975457,
+        38.904844,
+        45.074271,
+        39.04465
+      ],
+      "centre": {
+        "latitude": 45.024864,
+        "longitude": 38.974747
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25][bbox:44.975457,38.904844,45.074271,39.04465];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "objects": 245,
+      "osm_base_timestamp": "2026-11-21T15:39:20Z",
+      "content_sha256": "2237668d77568b842bd483652b9e528be3c1303ad48fb8347e064dee757bdfc0"
+    },
+    {
+      "city_id": "rostov-on-don",
+      "city_name": "Ростов-на-Дону",
+      "scope": "small_city_centre_block",
+      "boundary_verified": false,
+      "bbox": [
+        47.219738,
+        39.710849,
+        47.231738,
+        39.734849
+      ],
+      "centre": {
+        "latitude": 47.225738,
+        "longitude": 39.722849
+      },
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+      "query": "https://api.openstreetmap.org/api/0.6/map?bbox=39.710849%2C47.219738%2C39.734849%2C47.231738",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:47.176331,39.650096,47.275145,39.795602];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A47.176331%2C39.650096%2C47.275145%2C39.795602%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "bbox": [
+            47.176331,
+            39.650096,
+            47.275145,
+            39.795602
+          ]
+        }
+      ],
+      "objects": 129,
+      "method": "osm_api_bbox_xml",
+      "content_sha256": "97583d50dd2cd25ea1e12f3a00b347e94ccbdbe65b82cee2b5868e9b3eac0961",
+      "response_sha256": "50ae0fd5d91aef1b7ad0e924d038a14300db91ca8e71560e7fb5db63596c608a",
+      "note": "Резервная небольшая выборка центрального квартала после сбоев Overpass. Геометрия части relation отсутствует. Полный охват города требует следующей выгрузки."
+    },
+    {
+      "city_id": "omsk",
+      "city_name": "Омск",
+      "scope": "small_city_centre_block",
+      "boundary_verified": false,
+      "bbox": [
+        54.978445,
+        73.361594,
+        54.990445,
+        73.385594
+      ],
+      "centre": {
+        "latitude": 54.984445,
+        "longitude": 73.37359366062634
+      },
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+      "query": "https://api.openstreetmap.org/api/0.6/map?bbox=73.361594%2C54.978445%2C73.385594%2C54.990445",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:54.935038,73.287488,55.033852,73.459699];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A54.935038%2C73.287488%2C55.033852%2C73.459699%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "bbox": [
+            54.935038,
+            73.287488,
+            55.033852,
+            73.459699
+          ]
+        }
+      ],
+      "objects": 104,
+      "method": "osm_api_bbox_xml",
+      "content_sha256": "20b7909d1f6ec21896922fd8bd005da0de22fcea3e41ddf9bf8e226bf7bc0686",
+      "response_sha256": "abeeaa4743846baccca665fb7abea01d0cd4eb7648c4ea9fb69099ad0cf765b4",
+      "note": "Резервная небольшая выборка центрального квартала после сбоев Overpass. Геометрия части relation отсутствует. Полный охват города требует следующей выгрузки."
+    },
+    {
+      "city_id": "voronezh",
+      "city_name": "Воронеж",
+      "scope": "small_city_centre_block",
+      "boundary_verified": false,
+      "bbox": [
+        51.660149,
+        39.192819,
+        51.672149,
+        39.216819
+      ],
+      "centre": {
+        "latitude": 51.66614900788697,
+        "longitude": 39.204819
+      },
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+      "query": "https://api.openstreetmap.org/api/0.6/map?bbox=39.192819%2C51.660149%2C39.216819%2C51.672149",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:51.616742,39.125161,51.715556,39.284477];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A51.616742%2C39.125161%2C51.715556%2C39.284477%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "bbox": [
+            51.616742,
+            39.125161,
+            51.715556,
+            39.284477
+          ]
+        }
+      ],
+      "objects": 133,
+      "method": "osm_api_bbox_xml",
+      "content_sha256": "8f4b6dd1d6d4c8a965856aa6dd2dc3296e57f8da75a7d9732ab54e867aad7067",
+      "response_sha256": "fd9b3b187fa67ba60fe4d03e7a71d34b6b52ceae03f3ce445611ae2387309d48",
+      "note": "Резервная небольшая выборка центрального квартала после сбоев Overpass. Геометрия части relation отсутствует. Полный охват города требует следующей выгрузки."
+    },
+    {
+      "city_id": "perm",
+      "city_name": "Пермь",
+      "scope": "city_centre_bbox",
+      "boundary_verified": false,
+      "bbox": [
+        57.962283,
+        56.150322,
+        58.061098,
+        56.336853
+      ],
+      "centre": {
+        "latitude": 58.011690456495614,
+        "longitude": 56.243587500000004
+      },
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:25][bbox:57.962283,56.150322,58.061098,56.336853];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "objects": 198,
+      "osm_base_timestamp": "2026-11-21T15:40:21Z",
+      "content_sha256": "ac1eb4a8f8b526e346d76bcfef974e3ffc673781f4c59153bcffa5308e153c02"
+    },
+    {
+      "city_id": "volgograd",
+      "city_name": "Волгоград",
+      "scope": "small_city_centre_block",
+      "boundary_verified": false,
+      "bbox": [
+        48.705336,
+        44.504679,
+        48.717336,
+        44.528679
+      ],
+      "centre": {
+        "latitude": 48.711336,
+        "longitude": 44.516679
+      },
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+      "query": "https://api.openstreetmap.org/api/0.6/map?bbox=44.504679%2C48.705336%2C44.528679%2C48.717336",
+      "checked_on": "2026-11-21",
+      "status": "ok",
+      "previous_attempts": [
+        {
+          "query": "[out:json][timeout:25][bbox:48.661929,44.441803,48.760743,44.591555];(nwr[amenity=restaurant][name];nwr[amenity=marketplace][name];nwr[tourism=viewpoint][name];nwr[tourism=zoo][name];nwr[tourism=theme_park][name];nwr[tourism=aquarium][name];nwr[leisure=park][name];nwr[leisure=sports_centre][name];nwr[leisure=water_park][name];nwr[leisure=ice_rink][name];nwr[shop=gift][name];);out center tags;",
+          "status": "failed",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%5Bbbox%3A48.661929%2C44.441803%2C48.760743%2C44.591555%5D%3B%28nwr%5Bamenity%3Drestaurant%5D%5Bname%5D%3Bnwr%5Bamenity%3Dmarketplace%5D%5Bname%5D%3Bnwr%5Btourism%3Dviewpoint%5D%5Bna",
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "bbox": [
+            48.661929,
+            44.441803,
+            48.760743,
+            44.591555
+          ]
+        }
+      ],
+      "objects": 86,
+      "method": "osm_api_bbox_xml",
+      "content_sha256": "5642f7adecada195d7a32dac2521655e6c02920273ea055354831eeb79ef3a2e",
+      "response_sha256": "966e89a9d148902fb873c92727f7b17959d0996f2ea991fd3fabc011c3961ffc",
+      "note": "Резервная небольшая выборка центрального квартала после сбоев Overpass. Геометрия части relation отсутствует. Полный охват города требует следующей выгрузки."
+    }
+  ]
+}

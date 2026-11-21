@@ -1,0 +1,872 @@
+[
+  {
+    "map_id": "osm-way-259988409",
+    "place_id": "kazan-blagoveshhenskij-sobor",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-75658841",
+    "place_id": "kazan-culture-92985",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-40371211",
+    "place_id": "kazan-culture-87254",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-9703835717",
+    "place_id": "kazan-chirem-restaurant",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-295583",
+    "place_id": "krasnodar-culture-58216",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-8166435",
+    "place_id": "krasnodar-krasnodar-park",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-129395718",
+    "place_id": "krasnodar-culture-58266",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-6859114",
+    "place_id": "krasnodar-culture-58271",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-689539236",
+    "place_id": "krasnoyarsk-culture-80561",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-384694082",
+    "place_id": "krasnoyarsk-culture-80533",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-689543666",
+    "place_id": "krasnoyarsk-culture-80563",
+    "rule": "name_and_proximity",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-60333903",
+    "place_id": "krasnoyarsk-culture-80547",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-19264495",
+    "place_id": "krasnoyarsk-culture-80421",
+    "rule": "name_and_proximity",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-2377386",
+    "place_id": "moscow-culture-35296",
+    "rule": "name_and_proximity",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-6741551",
+    "place_id": "moscow-culture-35295",
+    "rule": "name_and_proximity",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-1555621",
+    "place_id": "moscow-culture-42737",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-2791365",
+    "place_id": "moscow-culture-35564",
+    "rule": "name_and_proximity",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-1538893",
+    "place_id": "nizhny-novgorod-culture-87164",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-2400756",
+    "place_id": "nizhny-novgorod-culture-22197",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-2768698",
+    "place_id": "nizhny-novgorod-culture-104309",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-2588172",
+    "place_id": "nizhny-novgorod-culture-80617",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-413414381",
+    "place_id": "novosibirsk-shilo-zoo",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-6234102",
+    "place_id": "novosibirsk-culture-98917",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-333482567",
+    "place_id": "novosibirsk-culture-98818",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-547244724",
+    "place_id": "perm-culture-65191",
+    "rule": "name_and_proximity",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-31277521",
+    "place_id": "perm-culture-65143",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-82802182",
+    "place_id": "saint-petersburg-vasileostrovsky-market",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-15745625",
+    "place_id": "saint-petersburg-marsovo-pole",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-2614476",
+    "place_id": "saint-petersburg-culture-10531",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-669936547",
+    "place_id": "saint-petersburg-strelka-vasilevskogo-ostrova",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-1445800",
+    "place_id": "saint-petersburg-culture-35583",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-20288296",
+    "place_id": "samara-culture-35475",
+    "rule": "name_and_proximity",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-564939068",
+    "place_id": "voronezh-pamyatnik-belomu-bimu-chernoe-uxo",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-relation-3784156",
+    "place_id": "yekaterinburg-culture-106493",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-38916178",
+    "place_id": "yekaterinburg-culture-65776",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-6261965886",
+    "place_id": "novosibirsk-sibir-sibir",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-2277432518",
+    "place_id": "nizhny-novgorod-pyatkin",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-10771182675",
+    "place_id": "krasnoyarsk-tunguska",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-way-362040263",
+    "place_id": "krasnodar-stan",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-2784813043",
+    "place_id": "rostov-on-don-onegin-dacha",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-1474837464",
+    "place_id": "omsk-kolchak",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-2679306157",
+    "place_id": "voronezh-garmoshka",
+    "rule": "normalized_name",
+    "status": "source_matched"
+  },
+  {
+    "map_id": "osm-node-1252468209",
+    "place_id": "moscow-osm-node-1252468209",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-3133624930",
+    "place_id": "moscow-osm-node-3133624930",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-1080029064",
+    "place_id": "moscow-osm-way-1080029064",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-14212255",
+    "place_id": "moscow-osm-relation-14212255",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-5445807522",
+    "place_id": "moscow-osm-node-5445807522",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-8746266849",
+    "place_id": "moscow-osm-node-8746266849",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-1436380461",
+    "place_id": "moscow-osm-node-1436380461",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-44778336",
+    "place_id": "moscow-osm-way-44778336",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4867850023",
+    "place_id": "saint-petersburg-osm-node-4867850023",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-11306334079",
+    "place_id": "saint-petersburg-osm-node-11306334079",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-141629692",
+    "place_id": "saint-petersburg-osm-way-141629692",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-8280619",
+    "place_id": "saint-petersburg-osm-relation-8280619",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-10167915288",
+    "place_id": "saint-petersburg-osm-node-10167915288",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-9085662394",
+    "place_id": "saint-petersburg-osm-node-9085662394",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4925319292",
+    "place_id": "saint-petersburg-osm-node-4925319292",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-1820462325",
+    "place_id": "saint-petersburg-osm-node-1820462325",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4117962592",
+    "place_id": "novosibirsk-osm-node-4117962592",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-6784500686",
+    "place_id": "novosibirsk-osm-node-6784500686",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-3306913",
+    "place_id": "novosibirsk-osm-relation-3306913",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-6717427",
+    "place_id": "novosibirsk-osm-relation-6717427",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4304809093",
+    "place_id": "novosibirsk-osm-node-4304809093",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-424200512",
+    "place_id": "novosibirsk-osm-way-424200512",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-975591602",
+    "place_id": "novosibirsk-osm-way-975591602",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-29315990",
+    "place_id": "novosibirsk-osm-way-29315990",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-5677224074",
+    "place_id": "yekaterinburg-osm-node-5677224074",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-10004451117",
+    "place_id": "yekaterinburg-osm-node-10004451117",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-21134990",
+    "place_id": "yekaterinburg-osm-relation-21134990",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-1007566756",
+    "place_id": "yekaterinburg-osm-way-1007566756",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-477201729",
+    "place_id": "yekaterinburg-osm-node-477201729",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-8919285577",
+    "place_id": "yekaterinburg-osm-node-8919285577",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-8574634220",
+    "place_id": "kazan-osm-node-8574634220",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-11047628460",
+    "place_id": "kazan-osm-node-11047628460",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-82899027",
+    "place_id": "kazan-osm-way-82899027",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-129285240",
+    "place_id": "kazan-osm-way-129285240",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-11368405295",
+    "place_id": "kazan-osm-node-11368405295",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4535608234",
+    "place_id": "kazan-osm-node-4535608234",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-13001047838",
+    "place_id": "nizhny-novgorod-osm-node-13001047838",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4745514179",
+    "place_id": "nizhny-novgorod-osm-node-4745514179",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-543733476",
+    "place_id": "nizhny-novgorod-osm-way-543733476",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-2054610",
+    "place_id": "nizhny-novgorod-osm-relation-2054610",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-9093165317",
+    "place_id": "nizhny-novgorod-osm-node-9093165317",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-11837888870",
+    "place_id": "nizhny-novgorod-osm-node-11837888870",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-11298582396",
+    "place_id": "nizhny-novgorod-osm-node-11298582396",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-5140959578",
+    "place_id": "nizhny-novgorod-osm-node-5140959578",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-513561992",
+    "place_id": "chelyabinsk-osm-node-513561992",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-11071169302",
+    "place_id": "chelyabinsk-osm-node-11071169302",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-761444598",
+    "place_id": "chelyabinsk-osm-way-761444598",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-26527955",
+    "place_id": "chelyabinsk-osm-way-26527955",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-3691958815",
+    "place_id": "chelyabinsk-osm-node-3691958815",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4969633421",
+    "place_id": "chelyabinsk-osm-node-4969633421",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-1524937516",
+    "place_id": "samara-osm-node-1524937516",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-7044286353",
+    "place_id": "samara-osm-node-7044286353",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-925333242",
+    "place_id": "samara-osm-way-925333242",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-672950593",
+    "place_id": "samara-osm-way-672950593",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-6157857",
+    "place_id": "samara-osm-relation-6157857",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4432424292",
+    "place_id": "ufa-osm-node-4432424292",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-7002303017",
+    "place_id": "ufa-osm-node-7002303017",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-222723365",
+    "place_id": "ufa-osm-way-222723365",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-122630025",
+    "place_id": "ufa-osm-way-122630025",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-76447142",
+    "place_id": "ufa-osm-way-76447142",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-4631335624",
+    "place_id": "krasnoyarsk-osm-node-4631335624",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-11080954055",
+    "place_id": "krasnoyarsk-osm-node-11080954055",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-3301398",
+    "place_id": "krasnoyarsk-osm-relation-3301398",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-136591011",
+    "place_id": "krasnoyarsk-osm-way-136591011",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-3711063858",
+    "place_id": "krasnoyarsk-osm-node-3711063858",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-9926018386",
+    "place_id": "krasnoyarsk-osm-node-9926018386",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-1320230667",
+    "place_id": "krasnoyarsk-osm-way-1320230667",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-7311599141",
+    "place_id": "krasnoyarsk-osm-node-7311599141",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-13148742601",
+    "place_id": "krasnodar-osm-node-13148742601",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-93620462",
+    "place_id": "krasnodar-osm-way-93620462",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-relation-17247474",
+    "place_id": "krasnodar-osm-relation-17247474",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-488311414",
+    "place_id": "krasnodar-osm-way-488311414",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-9883202417",
+    "place_id": "krasnodar-osm-node-9883202417",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-5720937716",
+    "place_id": "krasnodar-osm-node-5720937716",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-7826590385",
+    "place_id": "krasnodar-osm-node-7826590385",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-1205452289",
+    "place_id": "krasnodar-osm-way-1205452289",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-9186813273",
+    "place_id": "rostov-on-don-osm-node-9186813273",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-559063754",
+    "place_id": "rostov-on-don-osm-node-559063754",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-297113290",
+    "place_id": "rostov-on-don-osm-way-297113290",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-3836063702",
+    "place_id": "rostov-on-don-osm-node-3836063702",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-12844744126",
+    "place_id": "omsk-osm-node-12844744126",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-1474837502",
+    "place_id": "omsk-osm-node-1474837502",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-74003132",
+    "place_id": "omsk-osm-way-74003132",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-13352086305",
+    "place_id": "omsk-osm-node-13352086305",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-1200808129",
+    "place_id": "omsk-osm-way-1200808129",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-83903200",
+    "place_id": "omsk-osm-way-83903200",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-1673612175",
+    "place_id": "voronezh-osm-node-1673612175",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-13865924101",
+    "place_id": "voronezh-osm-node-13865924101",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-42955738",
+    "place_id": "voronezh-osm-way-42955738",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-279097854",
+    "place_id": "voronezh-osm-way-279097854",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-2558145616",
+    "place_id": "perm-osm-node-2558145616",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-13507224001",
+    "place_id": "perm-osm-node-13507224001",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-1415923469",
+    "place_id": "perm-osm-way-1415923469",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-10572372172",
+    "place_id": "perm-osm-node-10572372172",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-1476114914",
+    "place_id": "perm-osm-node-1476114914",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-1462003731",
+    "place_id": "perm-osm-way-1462003731",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-3133344251",
+    "place_id": "perm-osm-node-3133344251",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-78630725",
+    "place_id": "perm-osm-way-78630725",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-9743992277",
+    "place_id": "volgograd-osm-node-9743992277",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-10142638465",
+    "place_id": "volgograd-osm-node-10142638465",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-758948927",
+    "place_id": "volgograd-osm-way-758948927",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-way-544317777",
+    "place_id": "volgograd-osm-way-544317777",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  },
+  {
+    "map_id": "osm-node-6830036896",
+    "place_id": "volgograd-osm-node-6830036896",
+    "rule": "category_and_data_completeness",
+    "status": "map_imported"
+  }
+]

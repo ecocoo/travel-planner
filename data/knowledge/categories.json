@@ -1,0 +1,62 @@
+[
+  {
+    "id": "architecture",
+    "name": "Архитектура"
+  },
+  {
+    "id": "history",
+    "name": "История"
+  },
+  {
+    "id": "walking",
+    "name": "Прогулки"
+  },
+  {
+    "id": "art",
+    "name": "Искусство"
+  },
+  {
+    "id": "culture",
+    "name": "Культура"
+  },
+  {
+    "id": "science",
+    "name": "Наука"
+  },
+  {
+    "id": "religion",
+    "name": "Религия"
+  },
+  {
+    "id": "viewpoints",
+    "name": "Панорамы"
+  },
+  {
+    "id": "food",
+    "name": "Гастрономия"
+  },
+  {
+    "id": "sport",
+    "name": "Спорт"
+  },
+  {
+    "id": "nature",
+    "name": "Природа"
+  },
+  {
+    "id": "literature",
+    "name": "Литература"
+  },
+  {
+    "id": "family",
+    "name": "Семейные посещения"
+  },
+  {
+    "id": "entertainment",
+    "name": "Развлечения"
+  },
+  {
+    "id": "shopping",
+    "name": "Локальные бренды и сувениры"
+  }
+]

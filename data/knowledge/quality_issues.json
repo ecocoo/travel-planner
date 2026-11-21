@@ -1,0 +1,399 @@
+[
+  {
+    "place_id": "krasnodar-alexander-triumphal-arch",
+    "code": "missing_coordinates",
+    "source_url": "https://www.neklib.kubannet.ru/index.php/pamyatniki-krasnodara/pamyatniki-istorii-i-kultury/pamyatniki-istorii-kubani/9973-triumfalnaya-arka-tsarskie-vorota"
+  },
+  {
+    "place_id": "krasnodar-alexander-nevsky-cathedral",
+    "code": "missing_coordinates",
+    "source_url": "https://alexander-nevskiysobor.ru/contacts/"
+  },
+  {
+    "place_id": "krasnodar-catherine-ii-monument",
+    "code": "missing_coordinates",
+    "source_url": "https://felicina.ru/news/pamyatnik-ekaterine-ii/"
+  },
+  {
+    "place_id": "krasnodar-culture-81289",
+    "code": "public_tourist_access",
+    "source_url": "https://www.culture.ru/institutes/81289"
+  },
+  {
+    "place_id": "omsk-culture-8742",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/8742/art-galereya-kvadrat"
+  },
+  {
+    "place_id": "omsk-culture-10944",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10944"
+  },
+  {
+    "place_id": "omsk-culture-83685",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/83685"
+  },
+  {
+    "place_id": "omsk-culture-2831",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/2831/istoriko-sportivnyi-muzei-sibirskogo-gosudarstvennogo-universiteta-fizicheskoi-kultury-i-sporta"
+  },
+  {
+    "place_id": "omsk-culture-10398",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10398"
+  },
+  {
+    "place_id": "omsk-culture-83824",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/83824"
+  },
+  {
+    "place_id": "omsk-culture-58767",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/58767/muzei-omskogo-teatra-kukol-arlekin"
+  },
+  {
+    "place_id": "omsk-culture-11239",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11239/muzei-im-m-a-vrubelya-vrubelevskii-korpus"
+  },
+  {
+    "place_id": "omsk-culture-40623",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/40623/muzei-im-m-a-vrubelya-general-gubernatorskii-dvorec"
+  },
+  {
+    "place_id": "omsk-culture-42639",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/42639/muzei-im-m-a-vrubelya-centr-ermitazh-sibir"
+  },
+  {
+    "place_id": "omsk-culture-700",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/700/muzei-istorii-omskogo-gosudarstvennogo-universiteta-putei-soobsheniya"
+  },
+  {
+    "place_id": "omsk-culture-11369",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11369/muzei-istorii-omskogo-kino"
+  },
+  {
+    "place_id": "omsk-culture-2373",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/2373/muzei-istorii-omskogo-khimiko-mekhanicheskogo-tekhnikuma"
+  },
+  {
+    "place_id": "omsk-culture-11807",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11807/muzei-istorii-omskoi-gosudarstvennoi-medicinskoi-akademii"
+  },
+  {
+    "place_id": "omsk-culture-3531",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/3531/muzei-istorii-sibzavoda"
+  },
+  {
+    "place_id": "omsk-culture-6266",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/6266/muzei-istorii-depo-moskovka"
+  },
+  {
+    "place_id": "omsk-culture-694",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/694/muzei-istorii-zdravookhraneniya-omskoi-oblasti"
+  },
+  {
+    "place_id": "omsk-culture-3925",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/3925/muzei-istorii-rechnogo-uchilisha"
+  },
+  {
+    "place_id": "omsk-culture-8591",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/8591/muzei-istorii-upravleniya-vnutrennikh-del-administracii-omskoi-oblasti"
+  },
+  {
+    "place_id": "omsk-culture-8257",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/8257/muzei-istorii-evakogospitalya-1494"
+  },
+  {
+    "place_id": "omsk-culture-11728",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11728/muzei-kostyuma-omskogo-gosudarstvennogo-instituta-servisa"
+  },
+  {
+    "place_id": "omsk-culture-316",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/316/muzeinyi-otdel-omskogo-akademicheskogo-teatra-dramy"
+  },
+  {
+    "place_id": "omsk-culture-10196",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10196"
+  },
+  {
+    "place_id": "omsk-culture-11023",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11023/omskii-gosudarstvennyi-istoriko-kraevedcheskii-muzei"
+  },
+  {
+    "place_id": "omsk-culture-10374",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10374/omskii-literaturnyi-muzei-imeni-f-m-dostoevskogo"
+  },
+  {
+    "place_id": "omsk-culture-10123",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10123/sibirskii-kulturnyi-centr"
+  },
+  {
+    "place_id": "omsk-culture-60687",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/60687/centr-izucheniya-istorii-grazhdanskoi-voiny"
+  },
+  {
+    "place_id": "saint-petersburg-istoriko-kulturnyy-kompleks-fort-konstantin",
+    "code": "coordinate_conflict",
+    "source_url": "https://visit-petersburg.ru/leisure/places/istoriko-kulturnyy-kompleks-fort-konstantin/"
+  },
+  {
+    "place_id": "saint-petersburg-culture-35581",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/35581"
+  },
+  {
+    "place_id": "saint-petersburg-muzey-mostov-l-filial-tsmzht-rossii",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-petersburg.ru/leisure/places/muzey-mostov-l-filial-tsmzht-rossii/"
+  },
+  {
+    "place_id": "saint-petersburg-fort-obruchev",
+    "code": "coordinate_conflict",
+    "source_url": "https://visit-petersburg.ru/leisure/places/fort-obruchev/"
+  },
+  {
+    "place_id": "voronezh-culture-10665",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10665"
+  },
+  {
+    "place_id": "voronezh-culture-10607",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10607"
+  },
+  {
+    "place_id": "voronezh-culture-10960",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10960"
+  },
+  {
+    "place_id": "voronezh-culture-38846",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/38846"
+  },
+  {
+    "place_id": "voronezh-culture-10959",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/10959"
+  },
+  {
+    "place_id": "voronezh-culture-22229",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/22229/voronezhskii-oblastnoi-kraevedcheskii-muzei"
+  },
+  {
+    "place_id": "voronezh-culture-11387",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11387/voronezhskii-oblastnoi-khudozhestvennyi-muzei-im-i-n-kramskogo"
+  },
+  {
+    "place_id": "voronezh-culture-34279",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/34279/vystavochnyi-zal-muzeya-dioramy-g-voronezha"
+  },
+  {
+    "place_id": "voronezh-culture-12109",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/12109/dom-tyurinykh"
+  },
+  {
+    "place_id": "voronezh-culture-53416",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/53416"
+  },
+  {
+    "place_id": "voronezh-culture-11268",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11268/dom-muzei-i-s-nikitina"
+  },
+  {
+    "place_id": "voronezh-culture-26557",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/26557/zelenyi-teatr"
+  },
+  {
+    "place_id": "voronezh-culture-59593",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/59593/kinoteatr-sinema-park-g-voronezha"
+  },
+  {
+    "place_id": "voronezh-culture-103781",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/103781/muzei-istoriya-sozdaniya-rossiiskogo-flota"
+  },
+  {
+    "place_id": "voronezh-culture-83277",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/83277/muzei-petrovskie-korabli-g-voronezha"
+  },
+  {
+    "place_id": "voronezh-culture-102322",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/102322/muzei-vozdushno-desantnykh-voisk"
+  },
+  {
+    "place_id": "voronezh-culture-43322",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/43322/muzei-i-a-bunina-g-voronezha"
+  },
+  {
+    "place_id": "voronezh-culture-25894",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/25894/muzei-igrushek-helen-and-teddy"
+  },
+  {
+    "place_id": "voronezh-culture-11845",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/11845/muzei-kvartira-m-n-mordasovoi"
+  },
+  {
+    "place_id": "voronezh-culture-56466",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/56466"
+  },
+  {
+    "place_id": "voronezh-culture-84207",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/84207"
+  },
+  {
+    "place_id": "voronezh-culture-108065",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/108065/otdel-dom-gardenina-g-voronezha"
+  },
+  {
+    "place_id": "voronezh-culture-35577",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/35577/park-shinnikov"
+  },
+  {
+    "place_id": "voronezh-culture-107825",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/107825"
+  },
+  {
+    "place_id": "voronezh-culture-22247",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/22247/centr-voenno-patrioticheskogo-vospitaniya-muzei-diorama"
+  },
+  {
+    "place_id": "voronezh-culture-24760",
+    "code": "source_city_metadata_conflict",
+    "source_url": "https://www.culture.ru/institutes/24760/ekspoziciya-velikaya-otechestvennaya-voina-1941-1945-gg-arsenal"
+  },
+  {
+    "place_id": "omsk-culture-12221",
+    "code": "coordinate_conflict",
+    "source_url": "https://www.culture.ru/institutes/12221/omskii-muzei-prosvesheniya"
+  },
+  {
+    "place_id": "kazan-tatarskaya-usadba-restaurant",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-tatarstan.com/places/cafes-and-restaurants/tatarskaya_usadba/"
+  },
+  {
+    "place_id": "kazan-moskovsky-market",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-tatarstan.com/places/entertainment/kazanskiy-moskovskiy-rynok/"
+  },
+  {
+    "place_id": "kazan-tiki-viki-family-park",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-tatarstan.com/places/entertainment/semeynyy-park-aktivnogo-otdykha-tiki-viki/"
+  },
+  {
+    "place_id": "kazan-dubravnaya-ski-base",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-tatarstan.com/places/leisure/lyzhnaya-baza-dubravnaya-/"
+  },
+  {
+    "place_id": "kazan-padel-friends",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-tatarstan.com/places/leisure/padel-klub-na-arene-padel-friends/"
+  },
+  {
+    "place_id": "kazan-vitrina-local-brands",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-tatarstan.com/places/shopping/magazin-lokalnykh-brendov-vitrina/"
+  },
+  {
+    "place_id": "kazan-kazan-family-centre-viewpoint",
+    "code": "missing_coordinates",
+    "source_url": "https://visit-tatarstan.com/places/sightseeings/centr_semi_kazan/"
+  },
+  {
+    "place_id": "yekaterinburg-vysotsky-viewpoint",
+    "code": "missing_coordinates",
+    "source_url": "https://www.visotsky-e.ru/view"
+  },
+  {
+    "place_id": "novosibirsk-shilo-zoo",
+    "code": "opening_hours_conflict",
+    "source_url": "https://zoonovosib.ru/visitors/"
+  },
+  {
+    "place_id": "moscow-central-market",
+    "code": "missing_coordinates",
+    "source_url": "https://moscowcentralmarket.ru/contacts"
+  },
+  {
+    "place_id": "yekaterinburg-gorozhane",
+    "code": "missing_coordinates",
+    "source_url": "https://gorozhane.me/"
+  },
+  {
+    "place_id": "chelyabinsk-ural-pelmeni",
+    "code": "missing_coordinates",
+    "source_url": "https://uralpelmeni.ru/contacts.html"
+  },
+  {
+    "place_id": "samara-sudak",
+    "code": "missing_coordinates",
+    "source_url": "https://sudaksamara.ru/"
+  },
+  {
+    "place_id": "ufa-azyk-tulek",
+    "code": "missing_coordinates",
+    "source_url": "https://azyktulek.ru/"
+  },
+  {
+    "place_id": "volgograd-bamberg",
+    "code": "missing_coordinates",
+    "source_url": "https://bamberg-volgograd.ru/"
+  },
+  {
+    "place_id": "volgograd-bamberg",
+    "code": "opening_hours_conflict",
+    "source_url": "https://bamberg-volgograd.ru/"
+  },
+  {
+    "place_id": "novosibirsk-sibir-sibir",
+    "code": "map_website_conflict",
+    "source_url": "https://www.openstreetmap.org/node/6261965886",
+    "map_website": "https://tyumen.sibirsibir.ru/",
+    "official_website": "https://sibirsibir.ru/"
+  }
+]
