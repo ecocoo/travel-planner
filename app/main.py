@@ -1,10 +1,12 @@
 import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import JSONResponse
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
+from app.catalog import router as catalog_router
 from app.database import get_engine
 
 logger = logging.getLogger(__name__)
@@ -17,6 +19,13 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="Travel Planner API", version="0.1.0", lifespan=lifespan)
+app.include_router(catalog_router)
+
+
+@app.exception_handler(SQLAlchemyError)
+async def database_error(request: Request, error: SQLAlchemyError) -> JSONResponse:
+    logger.error("Database request failed", exc_info=error)
+    return JSONResponse(status_code=503, content={"detail": "Database is unavailable"})
 
 
 @app.get("/health/live")
