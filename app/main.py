@@ -8,6 +8,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from app.catalog import router as catalog_router
 from app.database import get_engine
+from app.trips import router as trips_router
 
 logger = logging.getLogger(__name__)
 
@@ -20,10 +21,19 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Travel Planner API", version="0.1.0", lifespan=lifespan)
 app.include_router(catalog_router)
+app.include_router(trips_router)
 
 
 @app.exception_handler(SQLAlchemyError)
 async def database_error(request: Request, error: SQLAlchemyError) -> JSONResponse:
+    code = getattr(getattr(error, "orig", None), "sqlstate", None)
+    if code in {"40001", "40P01", "23505"}:
+        return JSONResponse(
+            status_code=409,
+            content={
+                "detail": "Concurrent change. Fetch the latest revision and retry"
+            },
+        )
     logger.error("Database request failed", exc_info=error)
     return JSONResponse(status_code=503, content={"detail": "Database is unavailable"})
 
