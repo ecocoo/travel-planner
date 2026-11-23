@@ -124,6 +124,27 @@ class TripService:
             self.connection, trip_id, [row["id"] for row in rows]
         ):
             raise ConflictError("Stop ID is already in use")
+        unspecified = [
+            row["id"]
+            for row in rows
+            if row.get("pinned") is None or "visit_mode" not in row
+        ]
+        previous = (
+            await trips.read_stop_preferences(self.connection, trip_id, unspecified)
+            if unspecified
+            else {}
+        )
+        for row in rows:
+            old = previous.get(row["id"])
+            # Older clients omit these fields when editing an existing stop.
+            if row.get("pinned") is None:
+                row["pinned"] = old["pinned"] if old is not None else False
+            if "visit_mode" not in row:
+                row["visit_mode"] = (
+                    old["visit_mode"]
+                    if old is not None and old["place_id"] == row["place_id"]
+                    else None
+                )
         await trips.replace_stops(self.connection, trip_id, rows)
         updated = await trips.update_trip(
             self.connection, trip_id, trip["revision"], {}

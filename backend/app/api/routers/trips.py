@@ -65,10 +65,14 @@ async def update_trip(
 async def replace_itinerary(
     trip_id: UUID, data: ItineraryUpdate, guest_id: Guest, service: Trips
 ) -> TripDetail:
+    days = data.model_dump()["days"]
+    # Null explicitly clears the visit mode. Omitting it preserves existing data.
+    for day, input_day in zip(days, data.days, strict=True):
+        for stop, input_stop in zip(day["stops"], input_day.stops, strict=True):
+            if "visit_mode" not in input_stop.model_fields_set:
+                del stop["visit_mode"]
     return TripDetail.model_validate(
-        await service.replace_itinerary(
-            trip_id, guest_id, data.expected_revision, data.model_dump()["days"]
-        )
+        await service.replace_itinerary(trip_id, guest_id, data.expected_revision, days)
     )
 
 

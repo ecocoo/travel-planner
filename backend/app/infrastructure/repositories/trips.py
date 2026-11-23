@@ -9,12 +9,11 @@ from backend.app.infrastructure.db.models.tables import places, trip_stops, trip
 
 
 async def find_owned(
-    connection: AsyncConnection, trip_id: UUID, guest_id: UUID
+    connection: AsyncConnection, trip_id: UUID, guest_id: UUID, *, lock: bool = True
 ) -> RowMapping | None:
+    statement = select(trips).where(trips.c.id == trip_id, trips.c.owner_id == guest_id)
     result = await connection.execute(
-        select(trips)
-        .where(trips.c.id == trip_id, trips.c.owner_id == guest_id)
-        .with_for_update()
+        statement.with_for_update() if lock else statement
     )
     return result.mappings().first()
 
@@ -99,6 +98,23 @@ async def replace_stops(
     await connection.execute(delete(trip_stops).where(trip_stops.c.trip_id == trip_id))
     if rows:
         await connection.execute(insert(trip_stops), rows)
+
+
+async def read_stop_preferences(
+    connection: AsyncConnection, trip_id: UUID, stop_ids: list[UUID]
+) -> dict[UUID, RowMapping]:
+    result = await connection.execute(
+        select(
+            trip_stops.c.id,
+            trip_stops.c.pinned,
+            trip_stops.c.visit_mode,
+            trip_stops.c.place_id,
+        ).where(
+            trip_stops.c.trip_id == trip_id,
+            trip_stops.c.id.in_(stop_ids),
+        )
+    )
+    return {row["id"]: row for row in result.mappings()}
 
 
 async def update_trip(
