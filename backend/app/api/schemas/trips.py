@@ -5,6 +5,7 @@ from uuid import UUID, uuid4
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 from backend.app.api.schemas.catalog import Attribution, PlaceSummary
+from backend.app.domain.itinerary import VisitMode
 from backend.app.domain.trips import validate_date_range
 
 
@@ -48,6 +49,8 @@ class StopInput(TripInput):
     place_id: str = Field(min_length=1, max_length=200)
     duration_minutes: int | None = Field(default=None, ge=1, le=1440)
     notes: str = Field(default="", max_length=2000)
+    pinned: bool | None = None
+    visit_mode: VisitMode | None = None
 
 
 class DayInput(TripInput):
@@ -86,6 +89,8 @@ class TripStop(BaseModel):
     position: int
     duration_minutes: int | None
     notes: str
+    pinned: bool
+    visit_mode: VisitMode | None
     place: PlaceSummary
 
 

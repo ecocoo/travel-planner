@@ -117,5 +117,22 @@ async def city_exists(connection: AsyncConnection, city_id: str) -> bool:
     )
 
 
+async def find_city_timezone(connection: AsyncConnection, city_id: str) -> str | None:
+    return await connection.scalar(
+        select(cities.c.timezone).where(cities.c.id == city_id)
+    )
+
+
+async def list_city_places(
+    connection: AsyncConnection, city_id: str
+) -> list[dict[str, Any]]:
+    records = await connection.scalars(
+        select(places.c.payload)
+        .where(places.c.city_id == city_id)
+        .order_by(places.c.id)
+    )
+    return list(records)
+
+
 async def check_ready(connection: AsyncConnection) -> None:
     await connection.execute(select(1).select_from(places).limit(1))

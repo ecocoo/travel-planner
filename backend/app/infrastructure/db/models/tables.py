@@ -146,6 +146,8 @@ trip_stops = Table(
     Column("place_id", String, ForeignKey("places.id"), nullable=False),
     Column("duration_minutes", Integer),
     Column("notes", String(2000), nullable=False, server_default=""),
+    Column("pinned", Boolean, nullable=False, server_default=text("false")),
+    Column("visit_mode", String(20)),
     UniqueConstraint(
         "trip_id", "day_number", "position", name="unique_trip_stop_position"
     ),
