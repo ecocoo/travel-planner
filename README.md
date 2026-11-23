@@ -1,6 +1,6 @@
 # travel-planner
 
-Бэкенд планировщика самостоятельных путешествий. Python 3.13, uv, FastAPI, PostgreSQL 18, асинхронный SQLAlchemy Core и Alembic. Код организован по слоям шаблона Common.
+Бэкенд планировщика самостоятельных путешествий. Python 3.13, uv, FastAPI, PostgreSQL 18, асинхронный SQLAlchemy Core и Alembic. Код организован по слоям шаблона [Common](https://github.com/mikryukoff/Common.git).
 
 ## Локальный запуск
 
