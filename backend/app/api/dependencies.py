@@ -12,6 +12,7 @@ from backend.app.application.catalog import CatalogService
 from backend.app.application.exceptions import InvalidGuestTokenError
 from backend.app.application.generation import RouteGenerationService
 from backend.app.application.guest_sessions import resolve_guest
+from backend.app.application.route_templates import RouteTemplateService
 from backend.app.application.trips import TripService
 from backend.app.config.config import get_settings
 from backend.app.infrastructure.db.database import get_connection, get_transaction
@@ -40,6 +41,10 @@ def get_trip_service(connection: Transaction) -> TripService:
     return TripService(connection)
 
 
+def get_route_template_service(connection: ReadConnection) -> RouteTemplateService:
+    return RouteTemplateService(connection)
+
+
 async def get_preview_guest(
     credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(bearer)],
 ) -> UUID:
@@ -61,3 +66,5 @@ PreviewGuest = Annotated[UUID, Depends(get_preview_guest)]
 RouteGeneration = Annotated[
     RouteGenerationService, Depends(get_route_generation_service, scope="function")
 ]
+
+RouteTemplates = Annotated[RouteTemplateService, Depends(get_route_template_service)]

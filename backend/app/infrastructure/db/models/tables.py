@@ -123,6 +123,7 @@ trips = Table(
     Column("start_date", Date, nullable=False),
     Column("end_date", Date, nullable=False),
     Column("revision", Integer, nullable=False, server_default=text("1")),
+    Column("source_template", JSONB),
     Column(
         "created_at", DateTime(timezone=True), nullable=False, server_default=func.now()
     ),

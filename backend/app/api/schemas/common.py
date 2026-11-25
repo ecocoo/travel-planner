@@ -9,3 +9,10 @@ class ErrorResponse(BaseModel):
 
 class HealthResponse(BaseModel):
     status: Literal["ok"] = "ok"
+
+
+class SourceTemplate(BaseModel):
+    id: str
+    name: str
+    status: str
+    route_ready: bool
