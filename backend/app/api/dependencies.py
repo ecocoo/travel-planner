@@ -6,21 +6,26 @@ from uuid import UUID
 import httpx
 from fastapi import Depends
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
+from sqlalchemy.engine import RowMapping
 from sqlalchemy.ext.asyncio import AsyncConnection
 
+from backend.app.application.auth import AuthService, resolve_account, resolve_owner
 from backend.app.application.catalog import CatalogService
 from backend.app.application.exceptions import InvalidGuestTokenError
 from backend.app.application.generation import RouteGenerationService
-from backend.app.application.guest_sessions import resolve_guest
 from backend.app.application.route_templates import RouteTemplateService
 from backend.app.application.trips import TripService
 from backend.app.config.config import get_settings
-from backend.app.infrastructure.db.database import get_connection, get_transaction
+from backend.app.infrastructure.db.database import (
+    get_auth_transaction,
+    get_connection,
+    get_transaction,
+)
 
 ReadConnection = Annotated[AsyncConnection, Depends(get_connection, scope="function")]
 # FastAPI closes the function-scoped transaction before sending the response.
 Transaction = Annotated[AsyncConnection, Depends(get_transaction, scope="function")]
-bearer = HTTPBearer(auto_error=False, scheme_name="GuestToken")
+bearer = HTTPBearer(auto_error=False, scheme_name="BearerToken")
 read_snapshot = asynccontextmanager(get_connection)
 
 
@@ -28,7 +33,7 @@ async def get_guest_id(
     connection: Transaction,
     credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(bearer)],
 ) -> UUID:
-    return await resolve_guest(
+    return await resolve_owner(
         connection, credentials.credentials if credentials is not None else None
     )
 
@@ -51,7 +56,7 @@ async def get_preview_guest(
     if credentials is None:
         raise InvalidGuestTokenError("Valid guest token required")
     async with read_snapshot() as connection:
-        return await resolve_guest(connection, credentials.credentials)
+        return await resolve_owner(connection, credentials.credentials)
 
 
 async def get_route_generation_service() -> AsyncIterator[RouteGenerationService]:
@@ -68,3 +73,25 @@ RouteGeneration = Annotated[
 ]
 
 RouteTemplates = Annotated[RouteTemplateService, Depends(get_route_template_service)]
+
+
+AuthTransaction = Annotated[
+    AsyncConnection, Depends(get_auth_transaction, scope="function")
+]
+
+
+async def get_account(
+    connection: AuthTransaction,
+    credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(bearer)],
+) -> RowMapping:
+    return await resolve_account(
+        connection, credentials.credentials if credentials else None
+    )
+
+
+def get_auth_service(connection: AuthTransaction) -> AuthService:
+    return AuthService(connection)
+
+
+Account = Annotated[RowMapping, Depends(get_account)]
+Auth = Annotated[AuthService, Depends(get_auth_service)]

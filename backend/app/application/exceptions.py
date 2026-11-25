@@ -16,7 +16,12 @@ class ConflictError(ApplicationError):
     status_code = 409
 
 
-class InvalidGuestTokenError(ApplicationError):
+class AuthenticationError(ApplicationError):
+    error_code = "unauthorized"
+    status_code = 401
+
+
+class InvalidGuestTokenError(AuthenticationError):
     error_code = "invalid_guest_token"
     status_code = 401
 
