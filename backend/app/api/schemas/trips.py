@@ -5,6 +5,7 @@ from uuid import UUID, uuid4
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 from backend.app.api.schemas.catalog import Attribution, PlaceSummary
+from backend.app.api.schemas.common import SourceTemplate
 from backend.app.domain.itinerary import VisitMode
 from backend.app.domain.trips import validate_date_range
 
@@ -82,6 +83,7 @@ class TripSummary(BaseModel):
     revision: int
     created_at: datetime
     updated_at: datetime
+    source_template: SourceTemplate | None = None
 
 
 class TripStop(BaseModel):

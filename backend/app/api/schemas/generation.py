@@ -5,6 +5,7 @@ from uuid import UUID
 from pydantic import BaseModel, Field, model_validator
 
 from backend.app.api.schemas.catalog import Attribution
+from backend.app.api.schemas.common import SourceTemplate
 from backend.app.api.schemas.trips import StopInput, TripInput
 from backend.app.application.preferences import TravelPreferences
 from backend.app.domain.itinerary import MAX_PLAN_DAYS, VisitMode
@@ -83,13 +84,6 @@ class PlanMetrics(BaseModel):
     uncertain_hours: int
     booking_checks: int
     nonempty_days: int
-
-
-class SourceTemplate(BaseModel):
-    id: str
-    name: str
-    status: str
-    route_ready: bool
 
 
 class RoutePreview(BaseModel):

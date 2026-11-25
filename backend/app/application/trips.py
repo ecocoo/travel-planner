@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import date, timedelta
 from typing import Any
 from uuid import UUID, uuid4
 
@@ -10,8 +10,9 @@ from backend.app.application.exceptions import (
     InvalidRequestError,
     NotFoundError,
 )
+from backend.app.domain.route_templates import copy_template_days
 from backend.app.domain.trips import trip_day_count, validate_date_range
-from backend.app.infrastructure.repositories import catalog, trips
+from backend.app.infrastructure.repositories import catalog, route_templates, trips
 
 
 class TripService:
@@ -99,6 +100,18 @@ class TripService:
     ) -> dict[str, Any]:
         trip = await self._owned_trip(trip_id, guest_id)
         self._check_revision(trip, expected_revision)
+        await self._replace_stops(trip, days)
+        updated = await trips.update_trip(
+            self.connection, trip_id, trip["revision"], {}
+        )
+        return await self._trip_detail(updated)
+
+    async def _replace_stops(
+        self,
+        trip: RowMapping,
+        days: list[dict[str, Any]],
+    ) -> None:
+        trip_id = trip["id"]
         day_count = trip_day_count(trip["start_date"], trip["end_date"])
         if any(day["day_number"] > day_count for day in days):
             raise InvalidRequestError("Day number exceeds trip duration")
@@ -146,10 +159,50 @@ class TripService:
                     else None
                 )
         await trips.replace_stops(self.connection, trip_id, rows)
-        updated = await trips.update_trip(
-            self.connection, trip_id, trip["revision"], {}
+
+    async def create_from_template(
+        self,
+        guest_id: UUID,
+        template_id: str,
+        start_date: date,
+        end_date: date | None,
+        title: str | None,
+    ) -> dict[str, Any]:
+        template = await route_templates.find_template(self.connection, template_id)
+        if template is None:
+            raise NotFoundError("Route template not found")
+        try:
+            days = copy_template_days(template)
+            required_days = max(day["day_number"] for day in days)
+            finish = end_date or start_date + timedelta(days=required_days - 1)
+            validate_date_range(start_date, finish)
+        except (ValueError, OverflowError) as error:
+            raise InvalidRequestError(str(error)) from error
+        if trip_day_count(start_date, finish) < required_days:
+            raise InvalidRequestError("Trip dates must include all template days")
+        name = (title if title is not None else template["name"]).strip()
+        if not 1 <= len(name) <= 200:
+            raise InvalidRequestError(
+                "Provide a trip title between 1 and 200 characters"
+            )
+        await self._require_city(template["city_id"])
+        trip = await trips.create(
+            self.connection,
+            uuid4(),
+            guest_id,
+            {
+                "title": name,
+                "city_id": template["city_id"],
+                "start_date": start_date,
+                "end_date": finish,
+                "source_template": {
+                    key: template[key]
+                    for key in ("id", "name", "status", "route_ready")
+                },
+            },
         )
-        return await self._trip_detail(updated)
+        await self._replace_stops(trip, days)
+        return await self._trip_detail(trip)
 
     async def delete_trip(
         self, trip_id: UUID, guest_id: UUID, expected_revision: int
