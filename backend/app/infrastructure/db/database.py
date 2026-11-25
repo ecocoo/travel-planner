@@ -27,3 +27,11 @@ async def get_transaction() -> AsyncIterator[AsyncConnection]:
         await connection.execution_options(isolation_level="REPEATABLE READ")
         async with connection.begin():
             yield connection
+
+
+async def get_auth_transaction() -> AsyncIterator[AsyncConnection]:
+    # Claiming waits for guest writes and must then see their committed trips.
+    async with get_engine().connect() as connection:
+        await connection.execution_options(isolation_level="READ COMMITTED")
+        async with connection.begin():
+            yield connection
