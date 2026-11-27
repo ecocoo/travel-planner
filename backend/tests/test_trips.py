@@ -135,6 +135,115 @@ class TripTests(unittest.TestCase):
             )
         self.assertEqual(self.request("GET", path, owner)[1]["revision"], 1)
 
+    def _saved_itinerary(self) -> tuple[str, str, dict[str, Any]]:
+        owner = self.guest()
+        trip_path = "/trips/" + self.create_trip(owner)["id"]
+        status, saved = self.request(
+            "PUT",
+            f"{trip_path}/itinerary",
+            owner,
+            {
+                "expected_revision": 1,
+                "days": [
+                    {
+                        "day_number": 1,
+                        "stops": [
+                            {
+                                "place_id": self.place_ids[0],
+                                "duration_minutes": 45,
+                                "notes": "Встреча в 10:00",
+                                "visit_mode": "indoor",
+                            },
+                            {"place_id": self.place_ids[1], "pinned": True},
+                        ],
+                    },
+                    {
+                        "day_number": 2,
+                        "stops": [{"place_id": self.place_ids[1]}],
+                    },
+                ],
+            },
+        )
+        assert status == 200, saved
+        return owner, trip_path, saved
+
+    def test_replaces_only_the_requested_stop(self) -> None:
+        owner, trip_path, before = self._saved_itinerary()
+        target, neighbor = before["days"][0]["stops"]
+        status, saved = self.request(
+            "PATCH",
+            f"{trip_path}/itinerary/stops/{target['id']}",
+            owner,
+            {"expected_revision": before["revision"], "place_id": self.place_ids[2]},
+        )
+
+        assert status == 200, saved
+        assert saved["revision"] == before["revision"] + 1
+        changed, untouched = saved["days"][0]["stops"]
+        assert changed["place"]["id"] == self.place_ids[2]
+        assert changed["visit_mode"] is None
+        for key in ("id", "position", "duration_minutes", "notes"):
+            assert changed[key] == target[key]
+        assert untouched == neighbor
+        assert saved["days"][1] == before["days"][1]
+        assert self.request("GET", trip_path, owner)[1] == saved
+
+    def test_removes_one_stop_and_compacts_positions_in_its_day(self) -> None:
+        owner, trip_path, before = self._saved_itinerary()
+        target, neighbor = before["days"][0]["stops"]
+        stop_path = f"{trip_path}/itinerary/stops/{target['id']}"
+        status, saved = self.request(
+            "DELETE", f"{stop_path}?expected_revision={before['revision']}", owner
+        )
+
+        assert status == 200, saved
+        assert saved["revision"] == before["revision"] + 1
+        assert saved["days"][0]["stops"] == [{**neighbor, "position": 1}]
+        assert saved["days"][1] == before["days"][1]
+        assert self.request("GET", trip_path, owner)[1] == saved
+
+    def test_targeted_edits_reject_pinned_stop(self) -> None:
+        owner, trip_path, before = self._saved_itinerary()
+        pinned = before["days"][0]["stops"][1]
+        stop_path = f"{trip_path}/itinerary/stops/{pinned['id']}"
+        status, _ = self.request(
+            "PATCH",
+            stop_path,
+            owner,
+            {"expected_revision": before["revision"], "place_id": self.place_ids[2]},
+        )
+        assert status == 409
+        status, _ = self.request(
+            "DELETE", f"{stop_path}?expected_revision={before['revision']}", owner
+        )
+        assert status == 409
+        assert self.request("GET", trip_path, owner)[1] == before
+
+    def test_replacing_stop_requires_a_place_in_the_trip_city(self) -> None:
+        owner, trip_path, before = self._saved_itinerary()
+        target = before["days"][0]["stops"][0]
+        status, _ = self.request(
+            "PATCH",
+            f"{trip_path}/itinerary/stops/{target['id']}",
+            owner,
+            {"expected_revision": before["revision"], "place_id": self.other_place},
+        )
+
+        assert status == 422
+        assert self.request("GET", trip_path, owner)[1] == before
+
+    def test_targeted_edits_require_the_current_revision_and_owner(self) -> None:
+        owner, trip_path, before = self._saved_itinerary()
+        target = before["days"][0]["stops"][0]
+        stop_path = f"{trip_path}/itinerary/stops/{target['id']}"
+        current = f"{stop_path}?expected_revision={before['revision']}"
+
+        assert self.request("DELETE", current, self.guest())[0] == 404
+        assert (
+            self.request("DELETE", f"{stop_path}?expected_revision=1", owner)[0] == 409
+        )
+        assert self.request("GET", trip_path, owner)[1] == before
+
     def test_itinerary_reorder_move_and_delete(self) -> None:
         owner = self.guest()
         trip = self.create_trip(owner)

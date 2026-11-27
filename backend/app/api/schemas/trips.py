@@ -54,6 +54,11 @@ class StopInput(TripInput):
     visit_mode: VisitMode | None = None
 
 
+class StopPlaceUpdate(TripInput):
+    expected_revision: int = Field(ge=1)
+    place_id: str = Field(min_length=1, max_length=200)
+
+
 class DayInput(TripInput):
     day_number: int = Field(ge=1, le=366)
     stops: list[StopInput] = Field(default_factory=list, max_length=100)
