@@ -8,6 +8,7 @@ from backend.app.api.schemas.catalog import Page
 from backend.app.api.schemas.trips import (
     GuestSession,
     ItineraryUpdate,
+    StopPlaceUpdate,
     TripCreate,
     TripDetail,
     TripSummary,
@@ -73,6 +74,32 @@ async def replace_itinerary(
                 del stop["visit_mode"]
     return TripDetail.model_validate(
         await service.replace_itinerary(trip_id, guest_id, data.expected_revision, days)
+    )
+
+
+@router.patch("/trips/{trip_id}/itinerary/stops/{stop_id}", response_model=TripDetail)
+async def replace_stop_place(
+    trip_id: UUID, stop_id: UUID, data: StopPlaceUpdate, guest_id: Guest, service: Trips
+) -> TripDetail:
+    return TripDetail.model_validate(
+        await service.edit_stop(
+            trip_id, stop_id, guest_id, data.expected_revision, place_id=data.place_id
+        )
+    )
+
+
+@router.delete("/trips/{trip_id}/itinerary/stops/{stop_id}", response_model=TripDetail)
+async def remove_stop(
+    trip_id: UUID,
+    stop_id: UUID,
+    guest_id: Guest,
+    service: Trips,
+    expected_revision: Annotated[int, Query(ge=1)],
+) -> TripDetail:
+    return TripDetail.model_validate(
+        await service.edit_stop(
+            trip_id, stop_id, guest_id, expected_revision, place_id=None
+        )
     )
 
 

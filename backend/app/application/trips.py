@@ -34,6 +34,13 @@ class TripService:
         if not await catalog.city_exists(self.connection, city_id):
             raise InvalidRequestError("Unknown city_id")
 
+    async def _require_places(self, city_id: str, place_ids: set[str]) -> None:
+        found = await trips.find_places_in_city(self.connection, place_ids, city_id)
+        if found != place_ids:
+            raise InvalidRequestError(
+                "Every stop must reference an existing place in the trip city"
+            )
+
     async def _trip_detail(self, trip: RowMapping) -> dict[str, Any]:
         days = [
             {
@@ -125,14 +132,7 @@ class TripService:
             for day in days
             for position, stop in enumerate(day["stops"], start=1)
         ]
-        place_ids = {row["place_id"] for row in rows}
-        if (
-            await trips.find_places_in_city(self.connection, place_ids, trip["city_id"])
-            != place_ids
-        ):
-            raise InvalidRequestError(
-                "Every stop must reference an existing place in the trip city"
-            )
+        await self._require_places(trip["city_id"], {row["place_id"] for row in rows})
         if await trips.has_foreign_stop(
             self.connection, trip_id, [row["id"] for row in rows]
         ):
@@ -159,6 +159,43 @@ class TripService:
                     else None
                 )
         await trips.replace_stops(self.connection, trip_id, rows)
+
+    async def edit_stop(
+        self,
+        trip_id: UUID,
+        stop_id: UUID,
+        guest_id: UUID,
+        expected_revision: int,
+        *,
+        place_id: str | None,
+    ) -> dict[str, Any]:
+        trip = await self._owned_trip(trip_id, guest_id)
+        self._check_revision(trip, expected_revision)
+        day_stops = await trips.list_stops_for_same_day(
+            self.connection, trip_id, stop_id
+        )
+        rows = [dict(row) for row in day_stops]
+        stop = next((row for row in rows if row["id"] == stop_id), None)
+        if stop is None:
+            raise NotFoundError("Stop not found")
+        if stop["pinned"]:
+            raise ConflictError("Unpin the stop before editing or removing it")
+
+        if place_id is None:
+            rows.remove(stop)
+            for position, row in enumerate(rows, start=1):
+                row["position"] = position
+        elif place_id != stop["place_id"]:
+            await self._require_places(trip["city_id"], {place_id})
+            stop.update(place_id=place_id, visit_mode=None)
+
+        await trips.replace_stops(
+            self.connection, trip_id, rows, day_number=stop["day_number"]
+        )
+        updated = await trips.update_trip(
+            self.connection, trip_id, trip["revision"], {}
+        )
+        return await self._trip_detail(updated)
 
     async def create_from_template(
         self,

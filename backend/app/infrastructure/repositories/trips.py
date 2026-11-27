@@ -30,6 +30,22 @@ async def list_stops(
     return result.mappings().all()
 
 
+async def list_stops_for_same_day(
+    connection: AsyncConnection, trip_id: UUID, stop_id: UUID
+) -> Sequence[RowMapping]:
+    day_number = (
+        select(trip_stops.c.day_number)
+        .where(trip_stops.c.trip_id == trip_id, trip_stops.c.id == stop_id)
+        .scalar_subquery()
+    )
+    result = await connection.execute(
+        select(trip_stops)
+        .where(trip_stops.c.trip_id == trip_id, trip_stops.c.day_number == day_number)
+        .order_by(trip_stops.c.position)
+    )
+    return result.mappings().all()
+
+
 async def create(
     connection: AsyncConnection, trip_id: UUID, guest_id: UUID, data: dict[str, Any]
 ) -> RowMapping:
@@ -93,9 +109,16 @@ async def has_foreign_stop(
 
 
 async def replace_stops(
-    connection: AsyncConnection, trip_id: UUID, rows: list[dict[str, Any]]
+    connection: AsyncConnection,
+    trip_id: UUID,
+    rows: list[dict[str, Any]],
+    *,
+    day_number: int | None = None,
 ) -> None:
-    await connection.execute(delete(trip_stops).where(trip_stops.c.trip_id == trip_id))
+    statement = delete(trip_stops).where(trip_stops.c.trip_id == trip_id)
+    if day_number is not None:
+        statement = statement.where(trip_stops.c.day_number == day_number)
+    await connection.execute(statement)
     if rows:
         await connection.execute(insert(trip_stops), rows)
 
